@@ -24,7 +24,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: benbalter/retlab
 plugins:
   - jekyll-feed
 
