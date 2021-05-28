@@ -33,4 +33,4 @@ end
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # Theme
-gem "just-the-docs"
+#gem "just-the-docs"
