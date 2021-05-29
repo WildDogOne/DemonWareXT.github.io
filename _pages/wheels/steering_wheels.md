@@ -3,8 +3,7 @@
 layout: page
 title: Steering Wheels
 permalink: /hardware/wheels/
-classes:
- - wide
+has_children: true
 ---
 {% comment %}
 <table>
@@ -24,6 +23,8 @@ classes:
 </table>
 {% endcomment %}
 
+
+{% comment %}
 # Wheels 
 
 {% for wheel in site.data.ywheels %}
@@ -39,6 +40,7 @@ classes:
 </p>
 ---
 {% endfor %}
+{% endcomment %}
 
 # Wheel overview table
 <table>
@@ -48,19 +50,21 @@ classes:
             <th>Model</th>
             <th>LINK</th>
             <th>Style</th>
+            <th>Screen</th>
             <th>Width MM</th>
             <th>RETAIL EU</th>
             <th>RETAIL US</th>
     </tr>
         {% for wheel in site.data.ywheels %}
           <tr>
-            <td>{{ wheel.Brand }}</td>
-            <td>{{ wheel.Model }}</td>
-            <td>{{ wheel.LINK }}</td>
-            <td>{{ wheel.Style }}</td>
-            <td>{{ wheel.Width_MM }}</td>
-            <td>{{ wheel.RETAIL_EU }}</td>
-            <td>{{ wheel.RETAIL_US }}</td>
+            <td style="word-break:break-all;">{{ wheel.Brand }}</td>
+            <td style="word-break:break-all;">{{ wheel.Model }}</td>
+            <td style="word-break:break-all;">{{ wheel.LINK }}</td>
+            <td style="word-break:break-all;">{{ wheel.Style }}</td>
+            <td style="word-break:break-all;">{{ wheel.Screen }}</td>
+            <td style="word-break:break-all;">{{ wheel.Width_MM }}</td>
+            <td style="word-break:break-all;">{{ wheel.RETAIL_EU }}</td>
+            <td style="word-break:break-all;">{{ wheel.RETAIL_US }}</td>
           </tr>
         {% endfor %}
     </tbody>
