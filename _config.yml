@@ -29,7 +29,7 @@ markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
-color_scheme: dark
+#color_scheme: dark
 minima:
   skin: dark
 # Exclude from processing.
