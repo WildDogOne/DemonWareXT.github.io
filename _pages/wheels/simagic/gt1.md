@@ -9,6 +9,7 @@ parent: Simagic Wheels
 <br>
 
 # GT1
+{: .no_toc }
 The GT1 wheel comes in two shapes, classic and D Shape.<br>
 <img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81%E5%9B%BEGT1.png" alt="Classic" width="200"/>
 <img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81%E5%9B%BEGT1-D.png" alt="D Shape" width="200"/><br>

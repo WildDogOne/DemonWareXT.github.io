@@ -9,6 +9,7 @@ parent: Simagic Wheels
 <br>
 
 # GT4
+{: .no_toc }
 <img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81GT4.png" alt="GT4" width="200"/><br>
 ## Setup
 <img src="/assets/images/GT4_buttons.jpg" alt="drawing"/><br>
