@@ -2,7 +2,7 @@
 layout: page
 title: GT Wheels
 permalink: /hardware/wheels/gt/
-parent: Steering Wheels
+parent: Custom Wheels
 ---
 
 # GT Wheels 

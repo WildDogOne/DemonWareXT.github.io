@@ -2,7 +2,7 @@
 layout: page
 title: Prototype Wheels
 permalink: /hardware/wheels/prototype/
-parent: Steering Wheels
+parent: Custom Wheels
 ---
 
 # Prototype Wheels 

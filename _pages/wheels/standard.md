@@ -2,7 +2,7 @@
 layout: page
 title: Standard Wheels
 permalink: /hardware/wheels/standard/
-parent: Steering Wheels
+parent: Custom Wheels
 ---
 
 # Standard Wheels 

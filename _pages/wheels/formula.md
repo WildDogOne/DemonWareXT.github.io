@@ -2,7 +2,7 @@
 layout: page
 title: Formula Wheels
 permalink: /hardware/wheels/formula/
-parent: Steering Wheels
+parent: Custom Wheels
 ---
 
 # Formula Wheels 
