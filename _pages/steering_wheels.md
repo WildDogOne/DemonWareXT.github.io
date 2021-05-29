@@ -24,7 +24,23 @@ classes:
 </table>
 {% endcomment %}
 
+# Wheels 
 
+{% for wheel in site.data.ywheels %}
+<p>
+{% if wheel.Brand %}Brand: {{ wheel.Brand }}<br>{% endif %}
+{% if wheel.Model %}Model: {{ wheel.Model }}<br>{% endif %}
+{% if wheel.Style %}Wheel Style: {{ wheel.Style }}<br>{% endif %}
+{% if wheel.Screen %}Screen: {{ wheel.Screen }}<br>{% endif %}
+{% if wheel.Width_MM %}Width: {{ wheel.Width_MM }} mm<br>{% endif %}
+{% if wheel.LINK %}Link to Product: {{ wheel.LINK }}<br>{% endif %}
+{% if wheel.RETAIL_EU %}Price EU: {{ wheel.RETAIL_EU }} EUR<br>{% endif %}
+{% if wheel.RETAIL_US %}Price US: {{ wheel.RETAIL_US }} USD<br>{% endif %}
+</p>
+---
+{% endfor %}
+
+# Wheel overview table
 <table>
     <tbody>
     <tr style="color:#eaeaea; background-color:#51555d; border-bottom:2px solid #3d4046;">
