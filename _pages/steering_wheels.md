@@ -5,6 +5,7 @@ permalink: /hardware/wheels/
 classes:
  - wide
 ---
+{% comment %}
 <table>
   {% for row in site.data.wheels %}
     {% if forloop.first %}
@@ -20,7 +21,7 @@ classes:
     {% endtablerow %}
   {% endfor %}
 </table>
-
+{% endcomment %}
 
 
 <table>
@@ -40,9 +41,9 @@ classes:
             <td>{{ wheel.Model }}</td>
             <td>{{ wheel.LINK }}</td>
             <td>{{ wheel.Style }}</td>
-            <td>{{ wheel."Width MM" }}</td>
-            <td>{{ wheel."RETAIL EU" }}</td>
-            <td>{{ wheel."RETAIL US" }}</td>
+            <td>{{ wheel.Width_MM }}</td>
+            <td>{{ wheel.RETAIL_EU }}</td>
+            <td>{{ wheel.RETAIL_US }}</td>
           </tr>
         {% endfor %}
     </tbody>
