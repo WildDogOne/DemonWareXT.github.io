@@ -4,5 +4,8 @@ layout: page
 permalink: /
 nav_exclude: true
 ---
-Welcome to this little documentation of simagic :smiley:  
-I Personally thought it was a bit hard to get started with this product, so I will try and share what I've found out with you all
+Welcome to this little take on Simagic  
+I, like many others, have suffered from a bit from the underdocumentation of this product.  
+Because of that I've decided to try and gather all information that I know on this page.
+
+You may want to check [Getting Started](/base/getting_started/) or directly go to base settings.
