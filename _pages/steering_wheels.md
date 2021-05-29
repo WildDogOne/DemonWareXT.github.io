@@ -1,5 +1,6 @@
 ---
-layout: single
+#layout: single
+layout: page
 title: Steering Wheels
 permalink: /hardware/wheels/
 classes:
