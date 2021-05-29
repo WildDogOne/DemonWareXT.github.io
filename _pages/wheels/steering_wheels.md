@@ -1,7 +1,7 @@
 ---
 #layout: single
 layout: page
-title: Steering Wheels
+title: Custom Wheels
 permalink: /hardware/wheels/
 has_children: true
 ---
