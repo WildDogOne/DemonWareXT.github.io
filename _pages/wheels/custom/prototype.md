@@ -4,12 +4,17 @@ title: Prototype Wheels
 permalink: /hardware/wheels/prototype/
 parent: Custom Wheels
 ---
+1. TOC
+{:toc}
+<br>
 
 # Prototype Wheels 
+{: .no_toc }
 
 {% for wheel in site.data.ywheels %}
 {% if wheel.Style == "Prototype" %}
-<p>
+
+## {% if wheel.Brand %}{{ wheel.Brand }} - {% endif %}{% if wheel.Model %}{{ wheel.Model }}<br>{% endif %}
 {% if wheel.Brand %}Brand: {{ wheel.Brand }}<br>{% endif %}
 {% if wheel.Model %}Model: {{ wheel.Model }}<br>{% endif %}
 {% if wheel.Style %}Wheel Style: {{ wheel.Style }}<br>{% endif %}
@@ -19,7 +24,6 @@ parent: Custom Wheels
 {% if wheel.RETAIL_EU %}Price EU: {{ wheel.RETAIL_EU }} EUR<br>{% endif %}
 {% if wheel.RETAIL_US %}Price US: {{ wheel.RETAIL_US }} USD<br>{% endif %}
 {% if wheel.Comment %}Comments: {{ wheel.Comment }} USD<br>{% endif %}
-</p>
 ---
 {% endif %}
 {% endfor %}
