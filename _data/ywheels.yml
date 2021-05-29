@@ -1,7 +1,7 @@
 ---
 -
     Brand: PSE
-    Model: GPX Steering Wheel
+    Model: GPX
     LINK: <a target="_blank" href="https://www.precisionsimengineering.com/shop-online/gpx-steering-wheel">GPX racing simulator steering wheel — Precision Sim Engineering</a>
     Style: Formula
     Screen: "Yes"
@@ -12,7 +12,7 @@
     Brand: PSE
     Model: LM-X
     LINK: <a target="_blank" href="https://www.precisionsimengineering.com/shop-online/lm-x-steering-wheel">LM-X Steering Wheel — Precision Sim Engineering</a>
-    Style: Formula
+    Style: Prototype
     Screen: "Yes"
     Width_MM: 300
     RETAIL_EU: 2295.00
@@ -39,14 +39,14 @@
     Brand: JacobeR Sim Racing
     Model: RSR
     LINK: <a target="_blank" href="https://www.facebook.com/JacoberSimracing/posts/1281939265533686">(20+) JacobeR SimRacing - Posts / Facebook</a>
-    Style: GT
+    Style: Formula
     Screen: "Yes"
     Width_MM: 300
     RETAIL_EU: 1400.00
     RETAIL_US: 1666.00
 -
     Brand: Rexing
-    Model: FORMULA
+    Model: Formula
     LINK: <a target="_blank" href="https://rexing.eu/rexing-formula-wheel/">Rexing Formula Steering Wheel - rexing.eu</a>
     Style: Formula
     Screen: "Yes"
