@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Steering Wheels
 permalink: /wheels/
 ---
