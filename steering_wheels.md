@@ -2,6 +2,8 @@
 layout: single
 title: Steering Wheels
 permalink: /hardware/wheels/
+classes:
+ - wide
 ---
 
 | Brand                       | Model                    | LINK                                                                                                                                                                                                                                                                                        | Style               | Width MM | RETAIL EU                                                                                                                                                                                                 | RETAIL US |
