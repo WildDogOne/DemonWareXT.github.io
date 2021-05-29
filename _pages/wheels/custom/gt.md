@@ -13,7 +13,7 @@ parent: Custom Wheels
 
 
 {% for wheel in site.data.ywheels %}
-{% if wheel.Style == "GT" OR wheel.Style == "GT3" OR wheel.Style == "GT4" %}
+{% if wheel.Style == "GT" or wheel.Style == "GT3" or wheel.Style == "GT4" %}
 
 ## {% if wheel.Brand %}{{ wheel.Brand }} - {% endif %}{% if wheel.Model %}{{ wheel.Model }}<br>{% endif %}
 {% if wheel.Brand %}Brand: {{ wheel.Brand }}<br>{% endif %}
