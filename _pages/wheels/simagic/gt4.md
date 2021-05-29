@@ -1,11 +1,13 @@
 ---
-title: GT4 Clutch
+title: GT4
 layout: page
-permalink: /base/gt4_clutch/
+permalink: /wheels/gt4/
 parent: Simagic Wheels
 ---
-# Dual Clutch
-## Setup
+# GT4
+<img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81GT4.png" alt="drawing" width="200"/><br>
+## Dual Clutch
+### Setup
 How to adjust the bitepoint of the clutch.
 1. Set mode switch to "SET"
 1. Pull and hold the clutch paddle you want to change
