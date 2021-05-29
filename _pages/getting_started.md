@@ -27,4 +27,4 @@ nav_order: 1
     1. [m10 wheelbase](/base/m10/)
     1. [alpha wheelbase](/base/alpha/)
 ## Supported Games
-[Google Doc](https://docs.google.com/spreadsheets/d/e/2PACX-1vRhG6tHBONu3S_K4vcJCQkuDO7XXW7iNyr6FISYhhj5EOyYDTzTvsKjNkDk3lTnYzbg6u2WQgivcgPd/pubhtml?gid=2055729544&single=true)
+[Google Doc](https://docs.google.com/spreadsheets/d/e/2PACX-1vRhG6tHBONu3S_K4vcJCQkuDO7XXW7iNyr6FISYhhj5EOyYDTzTvsKjNkDk3lTnYzbg6u2WQgivcgPd/pubhtml?gid=2055729544&single=true){:target="_blank"}
