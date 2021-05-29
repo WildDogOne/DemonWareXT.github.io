@@ -43,6 +43,7 @@ has_children: true
 {% endcomment %}
 
 # Wheel overview table
+Copy from [Google Doc](https://docs.google.com/spreadsheets/d/1HbCalQYmV4_UasplthMmN3y-ymeUfvX5UfqmqaYK0Uk/htmlview)
 <table>
     <tbody>
     <tr style="color:#eaeaea; background-color:#51555d; border-bottom:2px solid #3d4046;">
