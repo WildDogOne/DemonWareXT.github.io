@@ -34,7 +34,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-include: ["_pages"]
+include:
+ - _pages
 defaults:
   # _pages
   - scope:
