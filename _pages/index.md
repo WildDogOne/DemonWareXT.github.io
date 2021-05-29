@@ -4,7 +4,8 @@ layout: page
 permalink: /
 nav_exclude: true
 ---
-Welcome to this little take on Simagic  
+![Simagic](https://www.simagic.com/assets/img/logoEn.png "Simagic Logo")
+
 I, like many others, have suffered from a bit from the underdocumentation of this product.  
 Because of that I've decided to try and gather all information that I know on this page.
 
