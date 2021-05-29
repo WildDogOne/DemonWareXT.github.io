@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Steering Wheels
-permalink: /wheels/
+permalink: /hardware/wheels/
 ---
 
 | Brand                       | Model                    | LINK                                                                                                                                                                                                                                                                                        | Style               | Width MM | RETAIL EU                                                                                                                                                                                                 | RETAIL US |

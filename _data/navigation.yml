@@ -1,0 +1,7 @@
+main:
+  - title: "Steering Wheels"
+    url: /hardware/wheels/
+  - title: "alpha base"
+    url: /base/alpha
+  - title: "m10 base"
+    url: /base/m10
