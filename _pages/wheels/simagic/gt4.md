@@ -5,7 +5,7 @@ permalink: /wheels/gt4/
 parent: Simagic Wheels
 ---
 # GT4
-<img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81GT4.png" alt="drawing" width="200"/><br>
+<img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81GT4.png" alt="GT4" width="200"/><br>
 ## Setup
 ### Calibration
 ### LEDs
