@@ -4,6 +4,10 @@ layout: page
 permalink: /wheels/gt4/
 parent: Simagic Wheels
 ---
+1. TOC
+{:toc}
+<br>
+
 # GT4
 <img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81GT4.png" alt="GT4" width="200"/><br>
 ## Setup

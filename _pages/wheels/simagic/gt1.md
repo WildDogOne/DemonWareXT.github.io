@@ -4,6 +4,10 @@ layout: page
 permalink: /wheels/gt1/
 parent: Simagic Wheels
 ---
+1. TOC
+{:toc}
+<br>
+
 # GT1
 The GT1 wheel comes in two shapes, classic and D Shape.<br>
 <img src="https://www.simagic.com/assets/img/%E4%BA%A7%E5%93%81%E5%9B%BEGT1.png" alt="Classic" width="200"/>
