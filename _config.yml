@@ -26,13 +26,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 #theme: minima
 #remote_theme: pmarsceill/just-the-docs
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
+remote_theme:  mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 #color_scheme: dark
-minima:
-  skin: dark
+#minima:
+#  skin: dark
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
