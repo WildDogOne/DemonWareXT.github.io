@@ -6,6 +6,7 @@ permalink: /base/getting_started/
 nav_order: 1
 ---
 # Getting Started
+## Quickstart
 1. [Get your Software](https://www.simagic.com/#/PageMainEn/PageDownloadEn){:target="_blank"}
     1. If you are on an m10 wheelbase, get the latest **RaceManager**
     1. If you are on an alpha wheelbase, get the latest **AlphaManager**
@@ -25,3 +26,5 @@ nav_order: 1
 1. And you're good to go, or more like good to start settings :smile:
     1. [m10 wheelbase](/base/m10/)
     1. [alpha wheelbase](/base/alpha/)
+## Supported Games
+[Google Doc](https://docs.google.com/spreadsheets/d/e/2PACX-1vRhG6tHBONu3S_K4vcJCQkuDO7XXW7iNyr6FISYhhj5EOyYDTzTvsKjNkDk3lTnYzbg6u2WQgivcgPd/pubhtml?gid=2055729544&single=true)
