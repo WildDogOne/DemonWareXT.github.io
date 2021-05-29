@@ -4,12 +4,12 @@ title: Prototype Wheels
 permalink: /hardware/wheels/prototype/
 parent: Custom Wheels
 ---
+# Prototype Wheels 
+{: .no_toc }
+
 1. TOC
 {:toc}
 <br>
-
-# Prototype Wheels 
-{: .no_toc }
 
 {% for wheel in site.data.ywheels %}
 {% if wheel.Style == "Prototype" %}

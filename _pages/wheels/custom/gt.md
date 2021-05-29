@@ -4,12 +4,13 @@ title: GT Wheels
 permalink: /hardware/wheels/gt/
 parent: Custom Wheels
 ---
+# GT Wheels 
+{: .no_toc }
+
 1. TOC
 {:toc}
 <br>
 
-# GT Wheels 
-{: .no_toc }
 
 {% for wheel in site.data.ywheels %}
 {% if wheel.Style == "GT" OR wheel.Style == "GT3" OR wheel.Style == "GT4" %}

@@ -4,13 +4,13 @@ title: Formula Wheels
 permalink: /hardware/wheels/formula/
 parent: Custom Wheels
 ---
-1. TOC
-{:toc}
-<br>
-
 # Formula Wheels 
 {: .no_toc }
 
+1. TOC
+{:toc}
+<br>
+   
 {% for wheel in site.data.ywheels %}
 {% if wheel.Style == "Formula" %}
 

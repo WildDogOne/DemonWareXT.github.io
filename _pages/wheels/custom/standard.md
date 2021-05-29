@@ -4,12 +4,12 @@ title: Standard Wheels
 permalink: /hardware/wheels/standard/
 parent: Custom Wheels
 ---
+# Standard Wheels 
+{: .no_toc }
+
 1. TOC
 {:toc}
 <br>
-
-# Standard Wheels 
-{: .no_toc }
 
 {% for wheel in site.data.ywheels %}
 {% if wheel.Style == "Standard" %}
