@@ -434,27 +434,29 @@
 -
     Brand: Balkn
     Model: RT1
-    LINK: <a target="_blank" href="https://balkn.shop/products/balkan-3d-rt1">https://balkn.shop/products/balkan-3d-rt1</a>
+    LINK: <a target="_blank" href="https://balkn.shop/products/balkan-3d-rt1">Balkn RT1</a>
     Style: Prototype
     Screen: "No"
     Width_MM: 300
-    RETAIL_EU: 349.99 CAD
-    RETAIL_US: 284.00
+    RETAIL_EU: 242.95
+    RETAIL_US: 296.00
 -
     Brand: Penguin R/C
-    Model:
+    Model: MOD_ONE
     LINK: <a target="_blank" href="http://www.penguinrc.com/penguinrc_simulation/usb_steering_wheel_boxes.html">Penguin r/c Simulation - USB Steering Wheel Boxes</a>
-    Style:
+    Style: Standard
     Screen: "No"
-    Width_MM:
+    Width_MM: 300 - 350
     RETAIL_EU:
-    RETAIL_US:
+    RETAIL_US: 424.99
+    Comment: Only button box, wheel not included
 -
-    Brand: Pokornyi Engineering
-    Model: Multiple
-    LINK: <a target="_blank" href="https://pokornyiengineering.com/">Pokornyi Engineering</a>
-    Style: Other
+    Brand: Penguin R/C
+    Model: MOD_AF
+    LINK: <a target="_blank" href="http://www.penguinrc.com/penguinrc_simulation/usb_steering_wheel_boxes.html">Penguin r/c Simulation - USB Steering Wheel Boxes</a>
+    Style: GT
     Screen: "No"
     Width_MM:
     RETAIL_EU:
-    RETAIL_US: 40.00
+    RETAIL_US: 399.99
+    Comment: Only button box, wheel not included
