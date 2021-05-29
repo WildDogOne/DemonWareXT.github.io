@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Steering Wheels"
     url: /hardware/wheels/
   - title: "alpha base"
