@@ -29,6 +29,7 @@ markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jemoji
 #color_scheme: dark
 minima:
   skin: dark
