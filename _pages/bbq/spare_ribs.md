@@ -1,20 +1,23 @@
 ---
 layout: page
-title: test
-permalink: /hardware/wheels/test/
-parent: Custom Wheels
-nav_exclude: true
+title: Spare Ribs
+permalink: /bbq/spare_ribs/
+parent: BBQ
 ---
-# GT Wheels 
-{: .no_toc }
+{% assign recipe = site.data.bbq.spareribs_321 %}
 
-1. TOC
-{:toc}
-<br>
+# {{ recipe.Name }}
+## Zutaten
+{% for ingredientStep in recipe.Ingredients %}
+- {{ ingredientStep }}
+{% for ingredient in ingredientStep %}
+- {{ ingredient }}
+{% endfor %}
+{% endfor %}
 
-
+   
 {% for wheel in site.data.ywheels %}
-{% if wheel.Style != "GT" and wheel.Style != "GT3" and wheel.Style != "GT4" and wheel.Style != "Formula" and wheel.Style != "Prototype" and wheel.Style != "Standard"%}
+{% if wheel.Brand == "Rexing" %}
 
 ## {% if wheel.Brand %}{{ wheel.Brand }} - {% endif %}{% if wheel.Model %}{{ wheel.Model }}<br>{% endif %}
 {% if wheel.Brand %}Brand: {{ wheel.Brand }}<br>{% endif %}
@@ -26,6 +29,7 @@ nav_exclude: true
 {% if wheel.RETAIL_EU %}Price EU: {{ wheel.RETAIL_EU }} EUR<br>{% endif %}
 {% if wheel.RETAIL_US %}Price US: {{ wheel.RETAIL_US }} USD<br>{% endif %}
 {% if wheel.Comment %}Comments: {{ wheel.Comment }} USD<br>{% endif %}
+
 ---
 {% endif %}
 {% endfor %}
