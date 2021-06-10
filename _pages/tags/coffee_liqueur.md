@@ -2,7 +2,7 @@
 layout: page
 title: Coffee Liqueur
 permalink: /tags/Coffee Liqueur/
-nav_exclude: true
+parent: Tags
 ---
 {% assign tag = "Coffee Liqueur" %}
 # {{ tag }}

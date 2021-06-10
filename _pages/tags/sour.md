@@ -2,7 +2,7 @@
 layout: page
 title: Sour
 permalink: /tags/Sour/
-nav_exclude: true
+parent: Tags
 ---
 {% assign tag = "Sour" %}
 # {{ tag }}

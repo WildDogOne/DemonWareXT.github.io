@@ -2,7 +2,7 @@
 layout: page
 title: Dry
 permalink: /tags/Dry/
-nav_exclude: true
+parent: Tags
 ---
 {% assign tag = "Dry" %}
 # {{ tag }}

@@ -2,7 +2,7 @@
 layout: page
 title: Blend
 permalink: /tags/Blend/
-nav_exclude: true
+parent: Tags
 ---
 {% assign tag = "Blend" %}
 # {{ tag }}

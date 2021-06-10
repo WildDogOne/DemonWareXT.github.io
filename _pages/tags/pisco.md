@@ -2,7 +2,7 @@
 layout: page
 title: Pisco
 permalink: /tags/Pisco/
-nav_exclude: true
+parent: Tags
 ---
 {% assign tag = "Pisco" %}
 # {{ tag }}
