@@ -5,17 +5,4 @@ permalink: /cocktails/pisco_sour/
 parent: Cocktails
 ---
 {% assign recipe = site.data.cocktails.pisco_sour %}
-# {{ recipe.Name }}
-## Zutaten
-{% for ingredient in recipe.Ingredients -%}
-- {{ ingredient }}
-{% endfor %}
-
-## Rezept
-{% for worksteps in recipe.Worksteps -%}
-1. {{ worksteps }}
-{% endfor %}
-
-
-#### Tags
-{% for tag in recipe.Tags %}[{{ tag }}](/tags/{{ tag }}) {% endfor %}
+{% include cocktail.liquid %}

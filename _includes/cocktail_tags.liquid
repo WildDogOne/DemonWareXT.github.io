@@ -1,9 +1,9 @@
-{% for x in site.data.cocktails %}
-{% for recipe in x %}
-{% for y in recipe.Tags %}
-{% if y == tag %}
+{% for x in site.data.cocktails -%}
+{% for recipe in x -%}
+{% for y in recipe.Tags -%}
+{% if y == tag -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
-{% endif %}
-{% endfor %}
-{% endfor %}
-{% endfor %}
+{% endif -%}
+{% endfor -%}
+{% endfor -%}
+{% endfor -%}

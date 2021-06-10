@@ -21,6 +21,7 @@ pisco_sour:
     - Angostura bitters
 sparkly_gin:
   Name: Gin Cava
+  Link: /cocktails/sparkly_gin/
   Tags:
     - Cava
     - Gin
@@ -32,3 +33,25 @@ sparkly_gin:
   Ingredients:
     - 40ml Gin, am besten Floral oder Fruchtig
     - Cava, trocken
+negroni_sour:
+  Name: Negroni Sour
+  Link: /cocktails/negroni_sour/
+  Tags:
+    - Sour
+    - Gin
+    - Shake
+  Worksteps:
+    - Zitrone und Eis in Shaker
+    - Shake!
+    - Restliche Zutaten hinzufügen
+    - Shake!
+    - Strain
+    - Drink
+  Ingredients:
+    - 1½ oz. gin
+    - ¾ oz. Campari
+    - 1 oz. amaro
+    - ¾ oz. fresh lemon juice
+    - ¼ oz. fresh orange juice
+    - ¼ oz. simple syrup (1:1)
+    - 1 fresh egg white (pasteurized if you like)
