@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Pisco Sour
-permalink: /cocktails/pisco_sour/
+title: Gin Cava
+permalink: /cocktails/sparkly_gin/
 parent: Cocktails
 ---
-{% assign recipe = site.data.cocktails.pisco_sour %}
+{% assign recipe = site.data.cocktails.sparkly_gin %}
 # {{ recipe.Name }}
 ## Zutaten
 {% for ingredient in recipe.Ingredients -%}

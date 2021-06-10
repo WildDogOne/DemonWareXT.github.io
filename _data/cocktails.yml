@@ -1,6 +1,11 @@
 ---
 pisco_sour:
   Name: Pisco Sour
+  Link: /cocktails/pisco_sour/
+  Tags:
+    - Shake
+    - Sour
+    - Pisco
   Worksteps:
     - Pisco, Eiweiss, Limettensaft und Zuckersirup mit Eis in cocktail shaker
     - Shake!
@@ -14,3 +19,16 @@ pisco_sour:
     - 1 Eisweiss
     - Eiswürfel
     - Angostura bitters
+sparkly_gin:
+  Name: Gin Cava
+  Tags:
+    - Cava
+    - Gin
+    - Dry
+  Worksteps:
+    - Gin in ein Champagner Glas geben
+    - Mit Cava auffüllen
+    - done!
+  Ingredients:
+    - 40ml Gin, am besten Floral oder Fruchtig
+    - Cava, trocken
