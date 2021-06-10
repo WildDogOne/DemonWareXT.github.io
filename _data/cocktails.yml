@@ -48,10 +48,31 @@ negroni_sour:
     - Strain
     - Drink
   Ingredients:
-    - 1½ oz. gin
-    - ¾ oz. Campari
-    - 1 oz. amaro
-    - ¾ oz. fresh lemon juice
-    - ¼ oz. fresh orange juice
-    - ¼ oz. simple syrup (1:1)
-    - 1 fresh egg white (pasteurized if you like)
+    - 40 ml Gin
+    - 20 ml Campari
+    - 30 ml Amaro
+    - 20 ml Zitronen Saft
+    - 10 ml Orangen Saft
+    - 10 ml Zucker Sirup (1:1)
+    - 1 Eiweiss (Oder Pasteurisiert)
+dirty_banana:
+  Name: Dirty Banana
+  Link: /cocktails/dirty_banana/
+  Tags:
+    - Blend
+    - Rum
+    - Coffee Liqueur
+  Worksteps:
+    - Alle Zutaten ausser kaffee liqueur in Blender
+    - Blend!
+    - In Hurricane Glas abfüllen
+    - Kaffee Liqueur über einen Barlöffel in das Glas giessen
+  Ingredients:
+    - 45 ml Rum
+    - 30 ml Kaffee Liqueur
+    - 30 ml Bananen Liqueur
+    - 30 ml Creme de Cacao
+    - 1 Frische Banane
+    - 30 ml Halbrahm
+    - 30 ml Milch
+    - Eis zum Blenden
