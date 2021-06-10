@@ -18,15 +18,16 @@ spareribs_321:
       - 1 Teelöffel Senfpulver
       - 1 Teelöffel Celery Samen
 bbq_sauce:
-  Name: Spare Ribs 321
+  Name: BBQ Sauce Süss
   Worksteps:
-    - Mische alle Saucen Gewürze zusammen
-    - Optional kann man die Gewürze in einem mixxer schön vermengen
-    - Zwiebel und Knoblauch mit ein bisschen öl anbraten bis schön braun
-    - Alle gewürze rein und mischen
-    - Alle anderen ingredienzen rein, mischen, kochen lassen
-    - Nach 10-20 die Sauce mit dem stabmixxer pürieren
-    - Köcherln lassen bis die konsistenz freude macht
+    Sauce:
+      - Mische alle Saucen Gewürze zusammen
+      - Optional kann man die Gewürze in einem mixxer schön vermengen
+      - Zwiebel und Knoblauch mit ein bisschen öl anbraten bis schön braun
+      - Alle gewürze rein und mischen
+      - Alle anderen ingredienzen rein, mischen, kochen lassen
+      - Nach 10-20 die Sauce mit dem stabmixxer pürieren
+      - Köcherln lassen bis die konsistenz freude macht
   Ingredients:
     Saucen Gewürze:
       - 3g chili pulver (mehr oder weniger)
