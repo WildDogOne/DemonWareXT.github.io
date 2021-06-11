@@ -76,3 +76,23 @@ dirty_banana:
     - 30 ml Halbrahm
     - 30 ml Milch
     - Eis zum Blenden
+honey_milkshake:
+  Name: Honey Milkshake
+  Link: /cocktails/honey_milkshake
+  Tags:
+    - Beer
+    - Port
+  Worksteps:
+    - Hälfte vom Guinness in ein hohes Glas geben
+    - Honig Eis dazugeben
+    - Schoko Sirup darüber leeren
+    - Alles mischen
+    - Restliches Guinness aufgiessen
+    - Tawny port aufgiessen
+    - Geniessen
+  Ingredients:
+    - 150 ml Guinness stout
+    - 2 Kleine Honig Eis Kugeln (falls Honig Eis keine Möglichkeit ist, Vanille Eis und Honig dazugeben)
+    - 30 ml Schokoladen Sirup
+    - 15 ml Tawny Port
+
