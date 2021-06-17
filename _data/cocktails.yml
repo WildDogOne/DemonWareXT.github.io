@@ -95,4 +95,19 @@ honey_milkshake:
     - 2 Kleine Honig Eis Kugeln (falls Honig Eis keine Möglichkeit ist, Vanille Eis und Honig dazugeben)
     - 30 ml Schokoladen Sirup
     - 15 ml Tawny Port
-
+margarita_ice:
+  Name: Eiscreme Margarita
+  Link: /cocktails/margarita_ice
+  Tags:
+    - Tequila
+    - Ice
+    - Blend
+  Worksteps:
+    - Alles in ein Blender
+    - Blend
+    - Go!
+  Ingredients:
+    - 50ml tequila
+    - 25ml triple sec (we used Cointreau)
+    - 25ml lime juice
+    - Eiscreme
