@@ -38,7 +38,7 @@ gyoza_shrimp_meat:
 spanish_tortilla:
   Name: Spanische Tortilla
   Worksteps:
-    - Kartoffeln schälen und mit Öl bedeckt anbraten (Kleine - Mittlere Stuffe)
+    - Kartoffeln schälen, in scheiben schneiden und mit Öl bedeckt anbraten (Kleine - Mittlere Stuffe)
     - Zwiebeln klein schneiden und anbraten
     - Sobald die Zwiebeln goldbraun sind, abkühlen lassen
     - Sobald die Kartoffeln durch sind übriges Öl abtropfen und abkühlen lassen
@@ -55,4 +55,6 @@ spanish_tortilla:
     - Oliven Öl
     - 6 Grosse eier
     - 2 TL Salz
-
+  References:
+    - https://spanishsabores.com/best-spanish-omelet-recipe/
+    - https://www.jamieoliver.com/recipes/eggs-recipes/spanish-tortilla/
