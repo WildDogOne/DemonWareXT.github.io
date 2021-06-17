@@ -5,6 +5,7 @@ permalink: /bbq/spare_ribs/
 parent: BBQ
 ---
 {% assign recipe = site.data.bbq.spareribs_321 %}
+
 # {{ recipe.Name }}
 :exclamation:Zuerst herstellen: [BBQ Sauce Süss](/bbq/bbq_sauce_suess/):exclamation:
 ## Zutaten

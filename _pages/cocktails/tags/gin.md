@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Gin
-permalink: /tags/Gin/
+permalink: /cocktails/tags/Gin/
 parent: Tags
+grand_parent: Cocktails
 ---
 {% assign tag = "Gin" %}
 # {{ tag }}
