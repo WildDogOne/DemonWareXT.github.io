@@ -1,0 +1,12 @@
+# {{ recipe.Name }}
+## Zutaten
+{: .no_toc }
+{% for ingredient in recipe.Ingredients -%}
+- {{ ingredient }}
+{% endfor %}
+
+## Rezept
+{: .no_toc }
+{% for worksteps in recipe.Worksteps -%}
+1. {{ worksteps }}
+{% endfor %}

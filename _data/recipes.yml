@@ -1,0 +1,33 @@
+---
+gyoza_vegetarian:
+  Name: Vegetarian Gyoza
+  Worksteps:
+    - Shitake und Frühlingszwiebeln zerkleinern (im mixer)
+    - Mischen mit Ei, Mirin Sake und Soya Sauce
+    - Goyza skins füllen
+    - Goyza fritieren oder dämpfen
+  Ingredients:
+    - 500g Shitake
+    - 1 Ei
+    - 2 EL Mirin
+    - 2 EL Sake
+    - 2 EL Soya Sauce
+    - 1-2 Frühlingszwiebeln
+    - Fertiger Gyoza Teig (aus asia Store)
+gyoza_shrimp_meat:
+  Name: Gyoza mit Shrimp und Beef
+  Worksteps:
+    - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
+    - Vermengen mit Rindfleisch
+    - Mischen mit Ei, Mirin Sake und Soya Sauce
+    - Goyza skins füllen
+    - Goyza fritieren oder dämpfen
+  Ingredients:
+    - 250 Shrimp
+    - 250 Rindfleisch gehackt
+    - 1 Ei
+    - 2 EL Mirin
+    - 2 EL Sake
+    - 2 EL Soya Sauce
+    - 1-2 Frühlingszwiebeln
+    - Fertiger Gyoza Teig (aus asia Store)
