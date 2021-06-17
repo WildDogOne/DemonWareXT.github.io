@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spanisch
-permalink: /recipes/asian/
+permalink: /recipes/spanish/
 has_children: true
 parent: Recipes
 ---

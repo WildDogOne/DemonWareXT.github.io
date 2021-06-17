@@ -10,3 +10,10 @@
 {% for worksteps in recipe.Worksteps -%}
 1. {{ worksteps }}
 {% endfor %}
+
+{% if recipe.References -%}
+### References
+{% for reference in recipe.References -%}
+- {{ reference }}
+{% endfor %}
+{% endif -%}
