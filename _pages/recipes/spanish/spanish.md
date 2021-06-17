@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Asiatisch
+title: Spanisch
 permalink: /recipes/asian/
 has_children: true
 parent: Recipes

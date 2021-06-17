@@ -2,7 +2,7 @@
 layout: page
 title: Gyoza
 permalink: /recipes/asian/gyoza/
-parent: Asian
+parent: Asiatisch
 grand_parent: Recipes
 ---
 1. TOC
