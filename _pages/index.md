@@ -9,8 +9,6 @@ Willkommen bei meiner kochen und anderes Seite
 ## Cocktails
 {% for x in site.data.cocktails -%}
 {% for recipe in x -%}
-{% for y in recipe.Tags -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
-{% endfor -%}
 {% endfor -%}
 {% endfor -%}
