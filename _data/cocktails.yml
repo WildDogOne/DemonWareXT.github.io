@@ -110,6 +110,21 @@ margarita_ice:
     - 25ml triple sec (z.B. Cointreau)
     - 25ml lime juice
     - Eiscreme geschmack und menge nach Wunsch
+iced_margarita:
+  Name: Iced Margarita
+  Link: /cocktails/iced_margarita
+  Tags:
+    - Tequila
+    - Blend
+  Worksteps:
+    - Alles in ein Blender
+    - Blend
+    - Go!
+  Ingredients:
+    - 50ml tequila
+    - 25ml triple sec (z.B. Cointreau)
+    - 25ml lime juice
+    - "100g gefrorene Frucht nach wahl (z.B: Mango)"
 white_russian:
   Name: White Russian
   Link: /cocktails/white_russian
