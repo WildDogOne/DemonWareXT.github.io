@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tequila
-permalink: /cocktails/tags/Tequila/
+title: Vodka
+permalink: /cocktails/tags/Vodka/
 parent: Tags
 grand_parent: Cocktails
 ---
