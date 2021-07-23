@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adana Kebab
-permalink: /recipes/spanish/turkish/
+permalink: /recipes/turkish/adana_kebab/
 parent: Türkisch
 grand_parent: Recipes
 ---

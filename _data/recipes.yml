@@ -1,6 +1,7 @@
 ---
 gyoza_vegetarian:
   Name: Vegetarian Gyoza
+  Link: /recipes/asian/gyoza/
   Worksteps:
     - Shitake, Karotte, und Frühlingszwiebeln zerkleinern (im mixer)
     - Mischen mit Ei, Mirin, Ingwer, Sake und Soya Sauce
@@ -19,6 +20,7 @@ gyoza_vegetarian:
     - Fertiger Gyoza Teig (aus asia Store)
 gyoza_shrimp_meat:
   Name: Gyoza mit Shrimp und Beef
+  Link: /recipes/asian/gyoza/
   Worksteps:
     - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
     - Vermengen mit Rindfleisch
@@ -37,6 +39,7 @@ gyoza_shrimp_meat:
     - Fertiger Gyoza Teig (aus asia Store)
 spanish_tortilla:
   Name: Spanische Tortilla
+  Link: /recipes/spanish/tortilla/
   Worksteps:
     - Kartoffeln schälen, in scheiben schneiden und mit Öl bedeckt anbraten (Kleine - Mittlere Stuffe)
     - Zwiebeln klein schneiden und anbraten
@@ -60,6 +63,7 @@ spanish_tortilla:
     - "[Jamie Oliver](https://www.jamieoliver.com/recipes/eggs-recipes/spanish-tortilla/)"
 adana_kebab:
   Name: Adana Kebab
+  Link: /recipes/turkish/adana_kebab/
   Worksteps:
     - Alles vermengen
     - Kaltstellen für mindestens 30min
