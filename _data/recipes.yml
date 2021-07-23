@@ -79,3 +79,32 @@ adana_kebab:
     - 2 Esslöffel Wasser
     - 1 Esslöffel Knoblauchpulver
     - 1 Esslöffel Zwiebelpulver
+tantanmen_ramen:
+  Name: Tantanmen Ramen
+  Link: /recipes/asian/tantanmen_ramen/
+  Worksteps:
+    - Bouillon mit Dashi und Sojasauce aufkochen
+    - Miso und Reismilch einrühren und nochmal aufkochen
+    - Nach belieben Chilli für schärfe
+    - Hack mit ein wenig Öl anbraten
+    - Sojasauce und Mirin zum ablöschen benutzen
+    - Pak Choi waschen und in salzwasser dämpfen
+    - Nudeln in salzwasser kochen
+    - Frühlingszwiebeln in dünne Ringe schneiden
+    - Hack, Pack Choi, Nudeln in Teller geben
+    - Brühe darüber
+    - Frühlingszwiebeln als Dekoration dazugeben
+    - Servieren
+  Ingredients:
+    - 3.5 dl Gemüsebouillon
+    - 0.5 dl Dashi
+    - 4 EL Sojasauce
+    - 1 TL Miso Paste (Dunkel)
+    - 2 dl Reismilch
+    - 1 Frühlingszwiebel
+    - 200g Vegi Hack
+    - 2 EL Pflanzenöl
+    - 1 EL Sojacause + 1 EL Mirin
+    - 2 Pak-Choi (klein)
+    - Salz
+    - 200g Nudeln (nach Wahl)
