@@ -97,7 +97,7 @@ tantanmen_ramen:
     - Servieren
   Ingredients:
     - 3.5 dl Gemüsebouillon
-    - 0.5 dl Dashi
+    - 0.5 dl [Dashi](/recipes/asian/dashi/)
     - 4 EL Sojasauce
     - 1 TL Miso Paste (Dunkel)
     - 2 dl Reismilch
@@ -108,3 +108,17 @@ tantanmen_ramen:
     - 2 Pak-Choi (klein)
     - Salz
     - 200g Nudeln (nach Wahl)
+dashi:
+  Name: Dashi
+  Link: /recipes/asian/dashi/
+  Worksteps:
+    - Algen einschneiden
+    - Algen mit Wasser aufkochen
+    - Köcheln lassen bis Algen weich
+    - Dann algen entfernen (fall Vegi gekocht wird, wars das)
+    - Bonito Flocken dazu geben und ca. 1 Stunde kochen
+    - Fertig
+  Ingredients:
+    - 30g Kombu Algen
+    - 1.5L Wasser
+    - 50g Bonito Flocken (ohne für Vegi)
