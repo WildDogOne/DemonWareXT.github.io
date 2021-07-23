@@ -4,8 +4,6 @@ layout: page
 permalink: /
 nav_exclude: true
 ---
-Willkommen bei meiner kochen und anderes Seite
-
 ## Cocktails
 {% for x in site.data.cocktails -%}
 {% for recipe in x -%}
