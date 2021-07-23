@@ -12,3 +12,10 @@ Willkommen bei meiner kochen und anderes Seite
 - [{{ recipe.Name }}]({{ recipe.Link }})
 {% endfor -%}
 {% endfor -%}
+
+## Food
+{% for x in site.data.recipes -%}
+{% for recipe in x -%}
+- [{{ recipe.Name }}]({{ recipe.Link }})
+{% endfor -%}
+{% endfor -%}
