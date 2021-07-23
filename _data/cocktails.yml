@@ -110,3 +110,19 @@ margarita_ice:
     - 25ml triple sec (z.B. Cointreau)
     - 25ml lime juice
     - Eiscreme geschmack und menge nach Wunsch
+white_russian:
+  Name: White Russian
+  Link: /cocktails/white_russian
+  Tags:
+    - Vodka
+    - Kaffelikör
+  Worksteps:
+    - Tumbler mit Eis füllen
+    - Vodka und Kaffeelikör in Tumbler geben
+    - Sahne leicht aufschlagen
+    - Sahne über einen Löffel in den Tumbler geben
+  Ingredients:
+    - 4 cl Vodka
+    - 3 cl Kaffeelikör (z.B. Kahlúa)
+    - 5-6 cl Sahne
+    - Eiswürfel
