@@ -4,5 +4,5 @@ title: Kaffee Smoothie
 permalink: /smoothies/coffee/
 parent: Smoothies
 ---
-{% assign smoothie = site.data.smoothies.coffee_smoothie %}
+{% assign recipe = site.data.smoothies.coffee_smoothie %}
 {% include recipe.liquid %}
