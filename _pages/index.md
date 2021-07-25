@@ -11,8 +11,15 @@ nav_exclude: true
 {% endfor -%}
 {% endfor -%}
 
-## Food
+## Essen
 {% for x in site.data.recipes -%}
+{% for recipe in x -%}
+- [{{ recipe.Name }}]({{ recipe.Link }})
+{% endfor -%}
+{% endfor -%}
+
+## Smoothies
+{% for x in site.data.smoothies -%}
 {% for recipe in x -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
 {% endfor -%}
