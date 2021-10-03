@@ -152,7 +152,8 @@ vegi_pie:
   Name: Pilz und Ale Pie
   Link: /recipes/british/vegi_pie
   Overview:
-    Time: 2 Hours
+    Time: 2 Stunden
+    Serves: 6
   Worksteps:
     - Getrocknete Pilze in gekochten Wasser einlegen
     - Zwiebeln in Ringe schneiden
