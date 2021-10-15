@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gin Infusion
+title: Ginfusion
 permalink: /cocktails/infused_gin
 parent: Cocktails
 ---
