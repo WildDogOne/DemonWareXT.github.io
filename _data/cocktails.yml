@@ -287,9 +287,10 @@ sugar_sirup:
   Tags:
     - Mixology
   Worksteps:
-    - Zucker und Wasser erhitzen und verrühren
+    - Zucker und Wasser verrühren
     - 20min kochen lassen bis ca ein Drittel der Flüssigkeit weg ist
+    - Allfällig entstehender grauer schaum abschöpfen und entsorgen
     - Abfüllen
   Ingredients:
     - 500g Zucker
-    - 340g Wasser
+    - 340g Kochendes Wasser
