@@ -215,3 +215,24 @@ early_tonic:
     - 20cl Tonic nach Wahl
     - Teebeutel z.B. Earl Gray
     - Bitters z.B. Orangenblüten
+    - 2+ Nelken
+pimms:
+  Name: Pimm's
+  Link: /cocktails/pimms
+  Rating: 4
+  Tags:
+    - Gin
+    - Sommer
+  Worksteps:
+    - Pimm's und Früchte vermengen und leicht zerstossen
+    - Sprite, Ginger Ale, Gurke und Minze zugeben
+    - Mit Eis auffüllen
+  Ingredients:
+    - 5cl Pimm's No. 1
+    - 10cl Sprite
+    - 5cl Gingerale
+    - Orangen Scheibe
+    - Gurken Scheibe(n)
+    - Zitronen Scheibe
+    - Minze
+    - Eiswürfel
