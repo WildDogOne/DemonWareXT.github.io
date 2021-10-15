@@ -9,29 +9,36 @@ def yaml_read(inputyaml):
 
 
 def generate_cocktail_page(cocktail_id, cocktail):
-    pprint(cocktail)
     file = "_pages/cocktails/" + cocktail_id + ".md"
     f = open(file, "w")
     f.write("---\n")
     f.write("layout: page\n")
-    f.write("title: "+cocktail["Name"]+"\n")
-    f.write("permalink: "+cocktail["Link"]+"\n")
+    f.write("title: " + cocktail["Name"] + "\n")
+    f.write("permalink: " + cocktail["Link"] + "\n")
     f.write("parent: Cocktails\n")
     f.write("---\n")
-    f.write("{% assign recipe = site.data.cocktails."+cocktail_id+" %}\n")
+    f.write("{% assign recipe = site.data.cocktails." + cocktail_id + " %}\n")
     f.write("{% include cocktail.liquid %}")
     f.close()
-    #quit()
-"""
----
-layout: page
-title: Pisco Sour
-permalink: /cocktails/pisco_sour/
-parent: Cocktails
----
-{% assign recipe = site.data.cocktails.pisco_sour %}
-{% include cocktail.liquid %}
-"""
+
+
+def generate_cocktail_tags(tags):
+    for tag in tags:
+        pprint(tag)
+        file = "_pages/cocktails/tags/" + tag.lower().replace(" ", "_") + ".md"
+        f = open(file, "w")
+        f.write("---\n")
+        f.write("layout: page\n")
+        f.write("title: " + tag + "\n")
+        f.write("permalink: /cocktails/tags/" + tag + "/\n")
+        f.write("parent: Tags\n")
+        f.write("grand_parent: Cocktails\n")
+        f.write("---\n")
+        f.write("{% assign tag = \"" + tag + "\" %}\n")
+        f.write("# {{ tag }}\n")
+        f.write("{% include cocktail_tags.liquid %}")
+        # quit()
+
 
 def generate_cocktails(inputyaml):
     cocktails = yaml_read(inputyaml)
@@ -41,7 +48,7 @@ def generate_cocktails(inputyaml):
         for tag in cocktails[cocktail]["Tags"]:
             if tag not in tags:
                 tags.append(tag)
-    pprint(tags)
+    generate_cocktail_tags(tags)
 
 
 def main():

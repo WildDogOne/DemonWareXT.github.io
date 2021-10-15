@@ -8,4 +8,3 @@ grand_parent: Cocktails
 {% assign tag = "Gin" %}
 # {{ tag }}
 {% include cocktail_tags.liquid %}
-
