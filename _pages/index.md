@@ -6,7 +6,7 @@ nav_exclude: true
 ---
 ## Cocktails
 {% for x in site.data.cocktails -%}
-{% for recipe in x -%}
+{% for recipe in x|sort(attribute='Name') -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
 {% endfor -%}
 {% endfor -%}
