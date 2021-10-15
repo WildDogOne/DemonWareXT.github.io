@@ -236,3 +236,21 @@ pimms:
     - Zitronen Scheibe
     - Minze
     - Eiswürfel
+infused_gin:
+  Name: Gin Infusion
+  Link: /cocktails/infused_gin
+  #Rating: 4
+  Tags:
+    - Gin
+  Worksteps:
+    - Gin und Teeblätter in einem luftdichten Behälter mischen
+    - 1-7 Tage stehen lassen
+    - Mischung absieben
+    - Mischung mit Kaffeefilter von schwebstoffen befreien
+    - Gin zurück in die Flasche
+    - Als Gin Tonic oder anderes brauchen
+  Ingredients:
+    - 70cl Gin
+    - 100g Teeblätter nach Wahl
+    - Sieb
+    - Kaffeefilter
