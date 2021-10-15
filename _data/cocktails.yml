@@ -200,6 +200,7 @@ hot_toddy:
 early_tonic:
   Name: Early Tonic
   Link: /cocktails/early_tonic
+  Rating: 4
   Tags:
     - Gin
     - Tee
