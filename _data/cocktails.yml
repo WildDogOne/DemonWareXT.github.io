@@ -2,6 +2,7 @@
 pisco_sour:
   Name: Pisco Sour
   Link: /cocktails/pisco_sour/
+  Rating: 4
   Tags:
     - Shake
     - Sour
@@ -22,6 +23,7 @@ pisco_sour:
 sparkly_gin:
   Name: Gin Cava
   Link: /cocktails/sparkly_gin/
+  Rating: 3
   Tags:
     - Cava
     - Gin
@@ -36,6 +38,7 @@ sparkly_gin:
 negroni_sour:
   Name: Negroni Sour
   Link: /cocktails/negroni_sour/
+  Rating: 3
   Tags:
     - Sour
     - Gin
@@ -58,6 +61,7 @@ negroni_sour:
 dirty_banana:
   Name: Dirty Banana
   Link: /cocktails/dirty_banana/
+  Rating: 5
   Tags:
     - Blend
     - Rum
@@ -79,6 +83,7 @@ dirty_banana:
 honey_milkshake:
   Name: Honey Milkshake
   Link: /cocktails/honey_milkshake
+  Rating: 2
   Tags:
     - Bier
     - Port
@@ -98,6 +103,7 @@ honey_milkshake:
 margarita_ice:
   Name: Eiscreme Margarita
   Link: /cocktails/margarita_ice
+  Rating: 2
   Tags:
     - Tequila
     - Blend
@@ -113,6 +119,7 @@ margarita_ice:
 iced_margarita:
   Name: Iced Margarita
   Link: /cocktails/iced_margarita
+  Rating: 4
   Tags:
     - Tequila
     - Blend
@@ -128,6 +135,7 @@ iced_margarita:
 white_russian:
   Name: White Russian
   Link: /cocktails/white_russian
+  Rating: 4
   Tags:
     - Vodka
     - Coffee Liqueur
@@ -145,6 +153,7 @@ white_russian:
 mai_tai:
   Name: Mai Tai
   Link: /cocktails/mai_tai
+  Rating: 4
   Tags:
     - Rum
     - Sour

@@ -1,4 +1,11 @@
 # {{ recipe.Name }}
+
+{% if recipe.Rating -%}
+{% for i in (1..recipe.Rating) -%}
+:star:
+{%- endfor -%}
+{% endif %}
+
 ## Zutaten
 {% for ingredient in recipe.Ingredients -%}
 - {{ ingredient }}
