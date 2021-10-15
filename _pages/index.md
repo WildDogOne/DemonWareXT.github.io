@@ -5,8 +5,9 @@ permalink: /
 nav_exclude: true
 ---
 ## Cocktails
-{% for x in site.data.cocktails -%}
-{% for recipe in x|sort(attribute='Name') -%}
+{% assign cocktail_by_name = site.data.cocktails | sort %}
+{% for x in cocktail_by_name -%}
+{% for recipe in x -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
 {% endfor -%}
 {% endfor -%}
