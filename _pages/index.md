@@ -13,14 +13,16 @@ nav_exclude: true
 {% endfor -%}
 
 ## Essen
-{% for x in site.data.recipes -%}
+{% assign recipes_by_name = site.data.recipes | sort %}
+{% for x in recipes_by_name -%}
 {% for recipe in x -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
 {% endfor -%}
 {% endfor -%}
 
 ## Smoothies
-{% for x in site.data.smoothies -%}
+{% assign smoothies_by_name = site.data.smoothies | sort %}
+{% for x in smoothies_by_name -%}
 {% for recipe in x -%}
 - [{{ recipe.Name }}]({{ recipe.Link }})
 {% endfor -%}
