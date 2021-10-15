@@ -5,7 +5,9 @@
 :star:
 {%- endfor -%}
 {% endif %}
-
+{% if recipe.Comment -%}
+{{recipe.Comment}}
+{% endif %}
 ## Zutaten
 {% for ingredient in recipe.Ingredients -%}
 - {{ ingredient }}

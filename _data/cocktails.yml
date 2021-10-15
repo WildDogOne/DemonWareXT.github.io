@@ -240,6 +240,10 @@ infused_gin:
   Name: Gin Infusion
   Link: /cocktails/infused_gin
   #Rating: 4
+  Comment: |
+    Dies ist ein grundrezept zum erstellen von eigenem Gin/Tee.
+    Er kann grundsätzlich als Gin Tonic verwendet werden.
+    Oder z.B. als Alkoholhaltigen Eistee
   Tags:
     - Gin
   Worksteps:
