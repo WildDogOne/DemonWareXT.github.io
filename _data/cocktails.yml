@@ -259,3 +259,22 @@ infused_gin:
     - 100g Teeblätter nach Wahl
     - Sieb
     - Kaffeefilter
+salted_caramel:
+  Name: Salted Caramel
+  Link: /cocktails/salted_caramel
+  #Rating: 4
+  Comment: |
+    Grundrezept für Salte Caramel
+  Tags:
+    - Mixology
+  Worksteps:
+    - Zucker in pfanne geben und unter stehtem rühren erhizen (mittlere hitze)
+    - Zucker weiter erhizen (und rühren) bis er braun wird
+    - Butter beigeben und rühren bis die Butter vollständig mit dem Zucker vermengt ist
+    - Pfanne vom Herd nehmen und Rahm und Salz beimengen
+    - Sobald eine ebene Mischung entstanden ist kann diese abgefüllt werden
+  Ingredients:
+    - 400g Zucker
+    - 170g Butter
+    - 250ml Doppelrahm
+    - 1 Teelöffel Salz
