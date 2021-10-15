@@ -4,5 +4,5 @@ title: Mai Tai
 permalink: /cocktails/mai_tai/
 parent: Cocktails
 ---
-{% assign recipe = site.data.cocktails.margarita_ice %}
+{% assign recipe = site.data.cocktails.mai_tai %}
 {% include cocktail.liquid %}
