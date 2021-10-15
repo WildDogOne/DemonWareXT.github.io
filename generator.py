@@ -24,7 +24,6 @@ def generate_cocktail_page(cocktail_id, cocktail):
 
 def generate_cocktail_tags(tags):
     for tag in tags:
-        pprint(tag)
         file = "_pages/cocktails/tags/" + tag.lower().replace(" ", "_") + ".md"
         f = open(file, "w")
         f.write("---\n")
