@@ -278,3 +278,18 @@ salted_caramel:
     - 170g Butter
     - 250ml Doppelrahm
     - 1 Teelöffel Salz
+sugar_sirup:
+  Name: Zucker Sirup
+  Link: /cocktails/sugar_sirup
+  #Rating: 4
+  Comment: |
+    Grundrezept für Zucker Sirup
+  Tags:
+    - Mixology
+  Worksteps:
+    - Zucker und Wasser erhitzen und verrühren
+    - 20min kochen lassen bis ca ein Drittel der Flüssigkeit weg ist
+    - Abfüllen
+  Ingredients:
+    - 500g Zucker
+    - 340g Wasser
