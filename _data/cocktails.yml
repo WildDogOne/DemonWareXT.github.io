@@ -165,3 +165,26 @@ mai_tai:
     - Eiswürfel
     - Crushed Eis
     - Optional z.B. Kardamom Bitters
+hot_toddy:
+  Name: Hot Toddy
+  Link: /cocktails/hot_toddy
+  Tags:
+    - Whisky
+    - Heiss
+    - Honig
+  Worksteps:
+    - Whisky und Honig vermischen
+    - Zimtstange in Heisswasser geben
+    - Zitrone Schählen, schahle knicken und mit Nelken spicken
+    - Zitronenschale in Heisswasser geben
+    - Zitrone entsaften und zum Heisswasser geben
+    - Whisky Honig mixtur ebenfalls beigeben
+    - Vermengen
+    - Fertig
+  Ingredients:
+    - 40ml whisky
+    - 3 teelöffel Honig
+    - 200ml Heisswasser
+    - 1/2 Zimtstange
+    - 1/2 Zitrone
+    - 2+ Nelken
