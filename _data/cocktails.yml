@@ -237,7 +237,7 @@ pimms:
     - Minze
     - Eiswürfel
 infused_gin:
-  Name: Gin Infusion
+  Name: Ginfusion
   Link: /cocktails/infused_gin
   #Rating: 4
   Comment: |
