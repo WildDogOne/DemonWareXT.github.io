@@ -42,6 +42,23 @@ name_of_cocktail:
     - Ingredient 1
     - Ingredient 2
 ```
+#### Food
+```
+name_of_recipe:
+  Name: Name of Recipe
+  Link: /recipes/british/name_of_recipe
+  Overview:
+    # Time it takes to cook
+    Time: 2 Stunden
+    # People served (aprox)
+    Serves: 6
+  Worksteps:
+    - Step 1
+    - Step 2
+  Ingredients:
+    - Ingredient 1
+    - Ingredient 2
+```
 
 
 ## About the site
