@@ -197,3 +197,20 @@ hot_toddy:
     - 1/2 Zimtstange
     - 1/2 Zitrone
     - 2+ Nelken
+early_tonic:
+  Name: Early Tonic
+  Link: /cocktails/early_tonic
+  Tags:
+    - Gin
+    - Tee
+    - Tonic
+  Worksteps:
+    - Teebeutel ein paar minuten im Gin einlegen
+    - Eiswürfel und Tonic zugeben
+    - Mit Bitters bestäuben
+    - Längere wartezeit = mehr aroma
+  Ingredients:
+    - 40ml+ Gin, am besten Traditionell
+    - 20cl Tonic nach Wahl
+    - Teebeutel z.B. Earl Gray
+    - Bitters z.B. Orangenblüten
