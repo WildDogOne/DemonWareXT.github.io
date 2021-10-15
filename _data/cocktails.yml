@@ -142,3 +142,24 @@ white_russian:
     - 5-6 cl Sahne
     - Eiswürfel
     - "Für mehr süsse: Schokoladen Orange Sirup"
+mai_tai:
+  Name: Mai Tai
+  Link: /cocktails/mai_tai
+  Tags:
+    - Rum
+    - Sour
+  Worksteps:
+    - Tumbler mit Eis füllen
+    - Limette darüber auspressen
+    - Restliche Zutaten beigeben
+    - Shaken
+    - In mit Crushed Eis gefülltes Glas geben
+  Ingredients:
+    - 1 Limette
+    - 1.5 cl Curacao Orange
+    - 0.75 cl Kandissirup
+    - 0.75 cl Orgeat
+    - 3 cl Dunkler Jamaicanischer Rum
+    - 3 cl Dunkler Martinique Rum
+    - Eiswürfel
+    - Crushed Eis
