@@ -36,7 +36,7 @@ def generate_cocktail_tags(tags):
         f.write("{% assign tag = \"" + tag + "\" %}\n")
         f.write("# {{ tag }}\n")
         f.write("{% include cocktail_tags.liquid %}")
-        # quit()
+        f.close()
 
 
 def generate_cocktails(inputyaml):
@@ -51,7 +51,9 @@ def generate_cocktails(inputyaml):
 
 
 def main():
+    print("Generating Cocktail Pages")
     generate_cocktails("_data/cocktails.yml")
+    print("Done")
 
 
 if __name__ == "__main__":
