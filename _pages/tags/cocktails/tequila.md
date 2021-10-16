@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tequila
-permalink: /cocktails/tags/Tequila/
+permalink: /tags/cocktails/Tequila/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

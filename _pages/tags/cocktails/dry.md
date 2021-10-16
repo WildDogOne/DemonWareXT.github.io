@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dry
-permalink: /cocktails/tags/Dry/
+permalink: /tags/cocktails/Dry/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

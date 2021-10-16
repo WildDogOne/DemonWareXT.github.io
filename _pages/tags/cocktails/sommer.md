@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sommer
-permalink: /cocktails/tags/Sommer/
+permalink: /tags/cocktails/Sommer/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

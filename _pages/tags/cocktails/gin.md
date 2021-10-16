@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gin
-permalink: /cocktails/tags/Gin/
+permalink: /tags/cocktails/Gin/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

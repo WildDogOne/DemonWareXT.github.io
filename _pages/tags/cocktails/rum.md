@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rum
-permalink: /cocktails/tags/Rum/
+permalink: /tags/cocktails/Rum/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

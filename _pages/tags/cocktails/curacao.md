@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curacao
-permalink: /cocktails/tags/Curacao/
+permalink: /tags/cocktails/Curacao/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

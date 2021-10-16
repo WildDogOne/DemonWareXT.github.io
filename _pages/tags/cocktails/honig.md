@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Honig
-permalink: /cocktails/tags/Honig/
+permalink: /tags/cocktails/Honig/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sour
-permalink: /cocktails/tags/Sour/
+permalink: /tags/cocktails/Sour/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

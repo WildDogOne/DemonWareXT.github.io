@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vegetarisch
-permalink: /recipes/tags/Vegetarisch/
+permalink: /tags/recipes/Vegetarisch/
 parent: Recipes Tags
 grand_parent: Tags
 ---

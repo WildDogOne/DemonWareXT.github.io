@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coffee Liqueur
-permalink: /cocktails/tags/Coffee Liqueur/
+permalink: /tags/cocktails/Coffee Liqueur/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

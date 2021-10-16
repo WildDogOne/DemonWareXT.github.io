@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deutsch
-permalink: /recipes/tags/Deutsch/
+permalink: /tags/recipes/Deutsch/
 parent: Recipes Tags
 grand_parent: Tags
 ---

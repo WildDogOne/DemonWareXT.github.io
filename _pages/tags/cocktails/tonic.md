@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tonic
-permalink: /cocktails/tags/Tonic/
+permalink: /tags/cocktails/Tonic/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

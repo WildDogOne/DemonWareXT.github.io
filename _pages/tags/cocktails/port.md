@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Port
-permalink: /cocktails/tags/Port/
+permalink: /tags/cocktails/Port/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

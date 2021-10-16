@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shake
-permalink: /cocktails/tags/Shake/
+permalink: /tags/cocktails/Shake/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

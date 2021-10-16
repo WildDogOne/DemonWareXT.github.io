@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pisco
-permalink: /cocktails/tags/Pisco/
+permalink: /tags/cocktails/Pisco/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Whisky
-permalink: /cocktails/tags/Whisky/
+permalink: /tags/cocktails/Whisky/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

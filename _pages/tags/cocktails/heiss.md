@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Heiss
-permalink: /cocktails/tags/Heiss/
+permalink: /tags/cocktails/Heiss/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

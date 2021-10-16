@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mixology
-permalink: /cocktails/tags/Mixology/
+permalink: /tags/cocktails/Mixology/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

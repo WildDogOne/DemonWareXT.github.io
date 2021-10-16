@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bier
-permalink: /cocktails/tags/Bier/
+permalink: /tags/cocktails/Bier/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

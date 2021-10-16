@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cava
-permalink: /cocktails/tags/Cava/
+permalink: /tags/cocktails/Cava/
 parent: Cocktails Tags
 grand_parent: Tags
 ---

@@ -48,7 +48,7 @@ def generate_tags(tags, tagType):
         f.write("---\n")
         f.write("layout: page\n")
         f.write("title: " + tag + "\n")
-        f.write("permalink: /" + tagType + "/tags/" + tag + "/\n")
+        f.write("permalink: /tags/" + tagType + "/" + tag + "/\n")
         f.write("parent: "+tagType.capitalize()+" Tags\n")
         f.write("grand_parent: Tags\n")
         f.write("---\n")

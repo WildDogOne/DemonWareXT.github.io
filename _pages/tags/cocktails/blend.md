@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blend
-permalink: /cocktails/tags/Blend/
+permalink: /tags/cocktails/Blend/
 parent: Cocktails Tags
 grand_parent: Tags
 ---
