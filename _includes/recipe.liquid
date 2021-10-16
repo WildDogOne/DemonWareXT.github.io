@@ -27,3 +27,8 @@
 - {{ reference }}
 {% endfor %}
 {% endif -%}
+
+{% if recipe.Tags -%}
+#### Tags
+{% for tag in recipe.Tags %}[{{ tag }}](/tags/recipes/{{ tag }}/) {% endfor %}
+{% endif -%}
