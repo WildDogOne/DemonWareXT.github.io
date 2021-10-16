@@ -23,20 +23,24 @@ def generate_cocktail_page(cocktail_id, cocktail):
 
 
 def generate_recipe_page(recipe_id, recipe):
-    pprint(recipe)
+    #pprint(recipe)
     file = "_pages" + recipe["Link"] + ".md"
+    location = recipe["Link"].split("/")[2].capitalize()
+    pprint(location)
     pprint(file)
-    quit()
-    f = open(file, "w")
-    f.write("---\n")
-    f.write("layout: page\n")
-    f.write("title: " + cocktail["Name"] + "\n")
-    f.write("permalink: " + cocktail["Link"] + "\n")
-    f.write("parent: Cocktails\n")
-    f.write("---\n")
-    f.write("{% assign recipe = site.data.cocktails." + recipe_id + " %}\n")
-    f.write("{% include cocktail.liquid %}")
-    f.close()
+    if recipe_id == "salzburger_vegi":
+        f = open(file, "w")
+        f.write("---\n")
+        f.write("layout: page\n")
+        f.write("title: "+recipe["Name"]+"\n")
+        f.write("permalink: "+recipe["Link"]+"\n")
+        f.write("parent: "+location+"\n")
+        f.write("grand_parent: Recipes\n")
+        f.write("---\n")
+        f.write("{% assign recipe = site.data.recipes."+recipe_id+" %}\n")
+        f.write("{% include recipe.liquid %}")
+        f.close()
+        quit()
 
 
 def generate_cocktail_tags(tags):
