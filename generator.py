@@ -43,7 +43,7 @@ def generate_tags(tags, tagType, template):
     for tag in tags:
         # file = "_pages/"+tagType+"/tags/" + tag.lower().replace(" ", "_") + ".md"
         file = "_pages/tags/" + tagType + "/" + tag.lower().replace(" ", "_") + ".md"
-        f = open(file, "w")
+        f = open(file, "w", encoding="utf-8")
         f.write("---\n")
         f.write("layout: page\n")
         f.write("title: " + tag + "\n")

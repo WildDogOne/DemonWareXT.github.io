@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Türkisch
-permalink: /tags/recipes/Türkisch/
+title: TÃ¼rkisch
+permalink: /tags/recipes/TÃ¼rkisch/
 parent: Recipes Tags
 grand_parent: Tags
 ---
-{% assign tag = "Türkisch" %}
+{% assign tag = "TÃ¼rkisch" %}
 # {{ tag }}
 {% include recipe_tags.liquid %}
