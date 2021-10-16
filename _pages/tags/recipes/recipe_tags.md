@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tags
-permalink: /cocktails/tags/
+permalink: /recipes/tags/
 has_children: true
-parent: Cocktails
+parent: Tags
 ---

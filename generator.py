@@ -30,26 +30,27 @@ def generate_recipe_page(recipe_id, recipe):
     f = open(file, "w", encoding="utf-8")
     f.write("---\n")
     f.write("layout: page\n")
-    f.write("title: "+recipe["Name"]+"\n")
-    f.write("permalink: "+recipe["Link"]+"\n")
-    f.write("parent: "+location+"\n")
+    f.write("title: " + recipe["Name"] + "\n")
+    f.write("permalink: " + recipe["Link"] + "\n")
+    f.write("parent: " + location + "\n")
     f.write("grand_parent: Recipes\n")
     f.write("---\n")
-    f.write("{% assign recipe = site.data.recipes."+recipe_id+" %}\n")
+    f.write("{% assign recipe = site.data.recipes." + recipe_id + " %}\n")
     f.write("{% include recipe.liquid %}")
     f.close()
 
 
 def generate_tags(tags, tagType):
     for tag in tags:
-        file = "_pages/"+tagType+"/tags/" + tag.lower().replace(" ", "_") + ".md"
+        # file = "_pages/"+tagType+"/tags/" + tag.lower().replace(" ", "_") + ".md"
+        file = "_pages/tags/" + tagType + "/" + tag.lower().replace(" ", "_") + ".md"
         f = open(file, "w")
         f.write("---\n")
         f.write("layout: page\n")
         f.write("title: " + tag + "\n")
-        f.write("permalink: /"+tagType+"/tags/" + tag + "/\n")
+        f.write("permalink: /" + tagType + "/tags/" + tag + "/\n")
         f.write("parent: Tags\n")
-        f.write("grand_parent: "+tagType.capitalize()+"\n")
+        f.write("grand_parent: " + tagType.capitalize() + "\n")
         f.write("---\n")
         f.write("{% assign tag = \"" + tag + "\" %}\n")
         f.write("# {{ tag }}\n")
@@ -74,9 +75,10 @@ def generate_food(inputyaml):
     for recipe in recipes:
         generate_recipe_page(recipe, recipes[recipe])
     for tag in recipes[recipe]["Tags"]:
-            if tag not in tags:
-                tags.append(tag)
+        if tag not in tags:
+            tags.append(tag)
     generate_tags(tags, "recipes")
+
 
 def main():
     print("Generating Cocktail Pages")
