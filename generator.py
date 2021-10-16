@@ -25,6 +25,7 @@ def generate_cocktail_page(cocktail_id, cocktail):
 def generate_recipe_page(recipe_id, recipe):
     file = "_pages" + recipe["Link"] + ".md"
     location = recipe["Link"].split("/")[2].capitalize()
+    location = recipe["Region"]
     # if recipe_id == "salzburger_vegi":
     f = open(file, "w", encoding="utf-8")
     f.write("---\n")

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vegetarian Gyoza
+title: Gyoza Vegetarisch
 permalink: /recipes/asiatisch/gyoza_vegetarian
 parent: Asiatisch
 grand_parent: Recipes

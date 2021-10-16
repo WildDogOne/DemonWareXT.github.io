@@ -2,6 +2,7 @@
 gyoza_vegetarian:
   Name: Gyoza Vegetarisch
   Link: /recipes/asiatisch/gyoza_vegetarian
+  Region: Asiatisch
   Worksteps:
     - Shitake, Karotte, und Frühlingszwiebeln zerkleinern (im mixer)
     - Mischen mit Ei, Mirin, Ingwer, Sake und Soya Sauce
@@ -21,6 +22,7 @@ gyoza_vegetarian:
 gyoza_shrimp_meat:
   Name: Gyoza mit Shrimp und Beef
   Link: /recipes/asiatisch/gyoza_shrimp_meat
+  Region: Asiatisch
   Worksteps:
     - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
     - Vermengen mit Rindfleisch
@@ -40,6 +42,7 @@ gyoza_shrimp_meat:
 spanish_tortilla:
   Name: Spanische Tortilla
   Link: /recipes/spanisch/tortilla
+  Region: Spanisch
   Worksteps:
     - Kartoffeln schälen, in scheiben schneiden und mit Öl bedeckt anbraten (Kleine - Mittlere Stuffe)
     - Zwiebeln klein schneiden und anbraten
@@ -64,6 +67,7 @@ spanish_tortilla:
 adana_kebab:
   Name: Adana Kebab
   Link: /recipes/türkisch/adana_kebab
+  Region: Türkisch
   Worksteps:
     - Alles vermengen
     - Kaltstellen für mindestens 30min
@@ -82,6 +86,7 @@ adana_kebab:
 tantanmen_ramen:
   Name: Tantanmen Ramen
   Link: /recipes/asiatisch/tantanmen_ramen
+  Region: Asiatisch
   Worksteps:
     - Bouillon mit Dashi und Sojasauce aufkochen
     - Miso und Reismilch einrühren und nochmal aufkochen
@@ -111,6 +116,7 @@ tantanmen_ramen:
 dashi:
   Name: Dashi
   Link: /recipes/asiatisch/dashi
+  Region: Asiatisch
   Worksteps:
     - Algen einschneiden
     - Algen mit Wasser aufkochen
@@ -125,6 +131,7 @@ dashi:
 koefte:
   Name: Köfte
   Link: /recipes/türkisch/koefte
+  Region: Türkisch
   Worksteps:
     - Zwiebeln raffeln, zwiebel saft dabei wegkippen
     - Tomatenmark und gewürze zu Zwiebeln zugeben
@@ -150,7 +157,8 @@ koefte:
 
 vegi_pie:
   Name: Pilz und Ale Pie
-  Link: /recipes/british/vegi_pie
+  Link: /recipes/britisch/vegi_pie
+  Region: Britisch
   Overview:
     Time: 2 Stunden
     Serves: 6
@@ -202,6 +210,7 @@ vegi_pie:
 salzburger_vegi:
   Name: Salzburger Bier Pilze
   Link: /recipes/deutsch/salzburger_vegi
+  Region: Deutsch
   Overview:
     Time: 2 Stunden
     Serves: 4
