@@ -16,7 +16,9 @@ nav_exclude: true
 {% assign recipes_by_name = site.data.recipes | sort %}
 {% for x in recipes_by_name -%}
 {% for recipe in x -%}
-- [{{ recipe.Name }}]({{ recipe.Link }})
+{% if recipe.Name -%}
+- [{{ recipe.Name }}]({{ recipe.Link }}) - {{ recipe.Region }}
+{% endif %}
 {% endfor -%}
 {% endfor -%}
 
