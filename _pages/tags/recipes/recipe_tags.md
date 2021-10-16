@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tags
+title: Recipe Tags
 permalink: /recipes/tags/
 has_children: true
-parent: Recipe Tags
+parent: Tags
 ---

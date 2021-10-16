@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tags
+title: Cocktail Tags
 permalink: /cocktails/tags/
 has_children: true
-parent: Cocktail Tags
+parent: Tags
 ---
