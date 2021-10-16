@@ -22,6 +22,23 @@ def generate_cocktail_page(cocktail_id, cocktail):
     f.close()
 
 
+def generate_recipe_page(recipe_id, recipe):
+    pprint(recipe)
+    file = "_pages" + recipe["Link"] + ".md"
+    pprint(file)
+    quit()
+    f = open(file, "w")
+    f.write("---\n")
+    f.write("layout: page\n")
+    f.write("title: " + cocktail["Name"] + "\n")
+    f.write("permalink: " + cocktail["Link"] + "\n")
+    f.write("parent: Cocktails\n")
+    f.write("---\n")
+    f.write("{% assign recipe = site.data.cocktails." + recipe_id + " %}\n")
+    f.write("{% include cocktail.liquid %}")
+    f.close()
+
+
 def generate_cocktail_tags(tags):
     for tag in tags:
         file = "_pages/cocktails/tags/" + tag.lower().replace(" ", "_") + ".md"
@@ -50,9 +67,17 @@ def generate_cocktails(inputyaml):
     generate_cocktail_tags(tags)
 
 
+def generate_food(inputyaml):
+    recipes = yaml_read(inputyaml)
+    for recipe in recipes:
+        generate_recipe_page(recipe, recipes[recipe])
+
+
 def main():
     print("Generating Cocktail Pages")
     generate_cocktails("_data/cocktails.yml")
+    print("Generating Food Pages")
+    generate_food("_data/recipes.yml")
     print("Done")
 
 
