@@ -23,11 +23,8 @@ def generate_cocktail_page(cocktail_id, cocktail):
 
 
 def generate_recipe_page(recipe_id, recipe):
-    #pprint(recipe)
     file = "_pages" + recipe["Link"] + ".md"
     location = recipe["Link"].split("/")[2].capitalize()
-    pprint(location)
-    pprint(file)
     if recipe_id == "salzburger_vegi":
         f = open(file, "w")
         f.write("---\n")
@@ -40,7 +37,6 @@ def generate_recipe_page(recipe_id, recipe):
         f.write("{% assign recipe = site.data.recipes."+recipe_id+" %}\n")
         f.write("{% include recipe.liquid %}")
         f.close()
-        quit()
 
 
 def generate_cocktail_tags(tags):
