@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spanische Tortilla
-permalink: /recipes/spanish/tortilla/
+permalink: /recipes/spanisch/tortilla
 parent: Spanisch
 grand_parent: Recipes
 ---
