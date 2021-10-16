@@ -18,7 +18,7 @@ nav_exclude: true
 {% for recipe in x -%}
 {% if recipe.Name -%}
 - [{{ recipe.Name }}]({{ recipe.Link }}) - {{ recipe.Region }}
-{% endif %}
+{% endif -%}
 {% endfor -%}
 {% endfor -%}
 
