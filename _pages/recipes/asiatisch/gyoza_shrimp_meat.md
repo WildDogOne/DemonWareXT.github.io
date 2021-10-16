@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gyoza mit Shrimp und Beef
-permalink: /recipes/asiatisch/gyoza
+permalink: /recipes/asiatisch/gyoza_shrimp_meat
 parent: Asiatisch
 grand_parent: Recipes
 ---

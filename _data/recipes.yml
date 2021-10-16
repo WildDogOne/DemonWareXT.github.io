@@ -1,7 +1,7 @@
 ---
 gyoza_vegetarian:
   Name: Vegetarian Gyoza
-  Link: /recipes/asiatisch/gyoza
+  Link: /recipes/asiatisch/gyoza_vegetarian
   Worksteps:
     - Shitake, Karotte, und Frühlingszwiebeln zerkleinern (im mixer)
     - Mischen mit Ei, Mirin, Ingwer, Sake und Soya Sauce
@@ -20,7 +20,7 @@ gyoza_vegetarian:
     - Fertiger Gyoza Teig (aus asia Store)
 gyoza_shrimp_meat:
   Name: Gyoza mit Shrimp und Beef
-  Link: /recipes/asiatisch/gyoza
+  Link: /recipes/asiatisch/gyoza_shrimp_meat
   Worksteps:
     - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
     - Vermengen mit Rindfleisch
