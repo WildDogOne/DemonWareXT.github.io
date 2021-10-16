@@ -1,7 +1,7 @@
 ---
 gyoza_vegetarian:
   Name: Vegetarian Gyoza
-  Link: /recipes/asian/gyoza
+  Link: /recipes/asiatisch/gyoza
   Worksteps:
     - Shitake, Karotte, und Frühlingszwiebeln zerkleinern (im mixer)
     - Mischen mit Ei, Mirin, Ingwer, Sake und Soya Sauce
@@ -20,7 +20,7 @@ gyoza_vegetarian:
     - Fertiger Gyoza Teig (aus asia Store)
 gyoza_shrimp_meat:
   Name: Gyoza mit Shrimp und Beef
-  Link: /recipes/asian/gyoza
+  Link: /recipes/asiatisch/gyoza
   Worksteps:
     - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
     - Vermengen mit Rindfleisch
@@ -63,7 +63,7 @@ spanish_tortilla:
     - "[Jamie Oliver](https://www.jamieoliver.com/recipes/eggs-recipes/spanish-tortilla/)"
 adana_kebab:
   Name: Adana Kebab
-  Link: /recipes/turkish/adana_kebab
+  Link: /recipes/türkisch/adana_kebab
   Worksteps:
     - Alles vermengen
     - Kaltstellen für mindestens 30min
@@ -81,7 +81,7 @@ adana_kebab:
     - 1 Esslöffel Zwiebelpulver
 tantanmen_ramen:
   Name: Tantanmen Ramen
-  Link: /recipes/asian/tantanmen_ramen
+  Link: /recipes/asiatisch/tantanmen_ramen
   Worksteps:
     - Bouillon mit Dashi und Sojasauce aufkochen
     - Miso und Reismilch einrühren und nochmal aufkochen
@@ -97,7 +97,7 @@ tantanmen_ramen:
     - Servieren
   Ingredients:
     - 3.5 dl Gemüsebouillon
-    - 0.5 dl [Dashi](/recipes/asian/dashi/)
+    - 0.5 dl [Dashi](/recipes/asiatisch/dashi/)
     - 4 EL Sojasauce
     - 1 TL Miso Paste (Dunkel)
     - 2 dl Reismilch
@@ -110,7 +110,7 @@ tantanmen_ramen:
     - 200g Nudeln (nach Wahl)
 dashi:
   Name: Dashi
-  Link: /recipes/asian/dashi
+  Link: /recipes/asiatisch/dashi
   Worksteps:
     - Algen einschneiden
     - Algen mit Wasser aufkochen
@@ -124,7 +124,7 @@ dashi:
     - 50g Bonito Flocken (ohne für Vegi)
 koefte:
   Name: Köfte
-  Link: /recipes/turkish/koefte
+  Link: /recipes/türkisch/koefte
   Worksteps:
     - Zwiebeln raffeln, zwiebel saft dabei wegkippen
     - Tomatenmark und gewürze zu Zwiebeln zugeben
@@ -206,31 +206,7 @@ salzburger_vegi:
     Time: 2 Stunden
     Serves: 6
   Worksteps:
-    - Getrocknete Pilze in gekochten Wasser einlegen
-    - Zwiebeln in Ringe schneiden
-    - Schalotten Grob Hacken
-    - Zwiebeln und Schalotten in Öl anbraten bis glasig
-    - Knoblauch pressen und mitanbraten
-    - Mischung zur Seite stellen
-    - Pilze zerkleinern falls nötig
-    - Pilze in grosser Pfanne in Öl anbraten (ca 5min)
-    - Eingelegte Pilze mitsamt wasser beigeben
-    - Bier, Bouillion Würfel,Tomatenpuree hinzugeben
-    - Gelee, Zucker hinzugeben
-    - Thymian und Lorbeerblätter hinzugeben
-    - Zwiebel Schalottenmix hinzugeben
-    - Salz und Pfeffer nach geschmack (achtung, Sauce wird noch abgekocht)
-    - Alles zusammen köcheln lassen für 20min
-    - Wärend dem köcheln, eine Backform einfetten und mit Blätterteig auslegen
-    - Backofen auf 200°C vorheizen (unter & oberhitze)
-    - Sauce mit Maizena oder ähnlichem verdicken
-    - Pie Füllung in die mit Teig ausgekleidete Backform geben
-    - Pie mit Teig decken
-    - Teig Deckel mit verquirltem Ei bestreichen
-    - Pie in den Ofen Geben
-    - 20min bei 200°C Unter & Oberhize Backen
-    - 30min bei 150°C Unterhize Backen
-    - Done
+    - TBD
   Ingredients:
     - 15g Getrocknete Pilze z.B. Morcheln
     - 250ml Wasser, gekocht

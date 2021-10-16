@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pilz und Ale Pie
-permalink: /recipes/british/vegi_pie/
+permalink: /recipes/british/vegi_pie
 parent: British
 grand_parent: Recipes
 ---

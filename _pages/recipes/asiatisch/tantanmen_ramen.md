@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tantanmen Ramen
-permalink: /recipes/asian/tantanmen_ramen/
+permalink: /recipes/asiatisch/tantanmen_ramen
 parent: Asiatisch
 grand_parent: Recipes
 ---
