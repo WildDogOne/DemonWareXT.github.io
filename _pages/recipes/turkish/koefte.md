@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Köfte
-permalink: /recipes/türkisch/koefte
+permalink: /recipes/turkish/koefte
 parent: Türkisch
 grand_parent: Recipes
 ---

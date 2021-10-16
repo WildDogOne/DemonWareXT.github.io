@@ -41,7 +41,7 @@ gyoza_shrimp_meat:
     - Fertiger Gyoza Teig (aus asia Store)
 spanish_tortilla:
   Name: Spanische Tortilla
-  Link: /recipes/spanisch/tortilla
+  Link: /recipes/spanish/tortilla
   Region: Spanisch
   Worksteps:
     - Kartoffeln schälen, in scheiben schneiden und mit Öl bedeckt anbraten (Kleine - Mittlere Stuffe)
@@ -66,7 +66,7 @@ spanish_tortilla:
     - "[Jamie Oliver](https://www.jamieoliver.com/recipes/eggs-recipes/spanish-tortilla/)"
 adana_kebab:
   Name: Adana Kebab
-  Link: /recipes/türkisch/adana_kebab
+  Link: /recipes/turkish/adana_kebab
   Region: Türkisch
   Worksteps:
     - Alles vermengen
@@ -130,7 +130,7 @@ dashi:
     - 50g Bonito Flocken (ohne für Vegi)
 koefte:
   Name: Köfte
-  Link: /recipes/türkisch/koefte
+  Link: /recipes/turkish/koefte
   Region: Türkisch
   Worksteps:
     - Zwiebeln raffeln, zwiebel saft dabei wegkippen
@@ -157,7 +157,7 @@ koefte:
 
 vegi_pie:
   Name: Pilz und Ale Pie
-  Link: /recipes/britisch/vegi_pie
+  Link: /recipes/british/vegi_pie
   Region: Britisch
   Overview:
     Time: 2 Stunden
@@ -209,7 +209,7 @@ vegi_pie:
     - 1 Ei
 salzburger_vegi:
   Name: Salzburger Bier Pilze
-  Link: /recipes/deutsch/salzburger_vegi
+  Link: /recipes/german/salzburger_vegi
   Region: Deutsch
   Overview:
     Time: 2 Stunden

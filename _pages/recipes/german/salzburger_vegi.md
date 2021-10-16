@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Salzburger Bier Pilze
-permalink: /recipes/deutsch/salzburger_vegi
+permalink: /recipes/german/salzburger_vegi
 parent: Deutsch
 grand_parent: Recipes
 ---
