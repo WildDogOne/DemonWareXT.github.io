@@ -3,7 +3,7 @@ layout: page
 title: Curacao
 permalink: /cocktails/tags/Curacao/
 parent: Cocktails Tags
-grand_parent: Cocktails
+grand_parent: Tags
 ---
 {% assign tag = "Curacao" %}
 # {{ tag }}

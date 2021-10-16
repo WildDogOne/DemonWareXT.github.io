@@ -3,7 +3,7 @@ layout: page
 title: Vegetarisch
 permalink: /recipes/tags/Vegetarisch/
 parent: Recipes Tags
-grand_parent: Recipes
+grand_parent: Tags
 ---
 {% assign tag = "Vegetarisch" %}
 # {{ tag }}

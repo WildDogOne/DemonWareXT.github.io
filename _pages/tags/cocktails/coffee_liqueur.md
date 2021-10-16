@@ -3,7 +3,7 @@ layout: page
 title: Coffee Liqueur
 permalink: /cocktails/tags/Coffee Liqueur/
 parent: Cocktails Tags
-grand_parent: Cocktails
+grand_parent: Tags
 ---
 {% assign tag = "Coffee Liqueur" %}
 # {{ tag }}

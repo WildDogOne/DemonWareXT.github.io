@@ -3,7 +3,7 @@ layout: page
 title: Gin
 permalink: /cocktails/tags/Gin/
 parent: Cocktails Tags
-grand_parent: Cocktails
+grand_parent: Tags
 ---
 {% assign tag = "Gin" %}
 # {{ tag }}

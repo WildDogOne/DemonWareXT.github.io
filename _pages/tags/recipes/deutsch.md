@@ -3,7 +3,7 @@ layout: page
 title: Deutsch
 permalink: /recipes/tags/Deutsch/
 parent: Recipes Tags
-grand_parent: Recipes
+grand_parent: Tags
 ---
 {% assign tag = "Deutsch" %}
 # {{ tag }}
