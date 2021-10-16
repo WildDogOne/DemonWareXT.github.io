@@ -40,7 +40,7 @@ def generate_recipe_page(recipe_id, recipe):
     f.close()
 
 
-def generate_tags(tags, tagType):
+def generate_tags(tags, tagType, template):
     for tag in tags:
         # file = "_pages/"+tagType+"/tags/" + tag.lower().replace(" ", "_") + ".md"
         file = "_pages/tags/" + tagType + "/" + tag.lower().replace(" ", "_") + ".md"
@@ -54,7 +54,7 @@ def generate_tags(tags, tagType):
         f.write("---\n")
         f.write("{% assign tag = \"" + tag + "\" %}\n")
         f.write("# {{ tag }}\n")
-        f.write("{% include cocktail_tags.liquid %}")
+        f.write("{% include "+template+" %}")
         f.close()
 
 
@@ -66,7 +66,7 @@ def generate_cocktails(inputyaml):
         for tag in cocktails[cocktail]["Tags"]:
             if tag not in tags:
                 tags.append(tag)
-    generate_tags(tags, "cocktails")
+    generate_tags(tags, "cocktails", "cocktail_tags.liquid")
 
 
 def generate_food(inputyaml):
@@ -77,7 +77,7 @@ def generate_food(inputyaml):
     for tag in recipes[recipe]["Tags"]:
         if tag not in tags:
             tags.append(tag)
-    generate_tags(tags, "recipes")
+    generate_tags(tags, "recipes", "recipe_tags.liquid")
 
 
 def main():

@@ -7,4 +7,4 @@ grand_parent: Tags
 ---
 {% assign tag = "Vegetarisch" %}
 # {{ tag }}
-{% include cocktail_tags.liquid %}
+{% include recipe_tags.liquid %}
