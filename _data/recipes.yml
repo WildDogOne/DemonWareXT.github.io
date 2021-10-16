@@ -3,6 +3,9 @@ gyoza_vegetarian:
   Name: Gyoza Vegetarisch
   Link: /recipes/asian/gyoza_vegetarian
   Region: Asiatisch
+  Tags:
+    - Chinesisch
+    - Vegetarisch
   Worksteps:
     - Shitake, Karotte, und Frühlingszwiebeln zerkleinern (im mixer)
     - Mischen mit Ei, Mirin, Ingwer, Sake und Soya Sauce
@@ -19,10 +22,13 @@ gyoza_vegetarian:
     - 1 TL Ingwer
     - 1-2 Frühlingszwiebeln
     - Fertiger Gyoza Teig (aus asia Store)
+
 gyoza_shrimp_meat:
   Name: Gyoza mit Shrimp und Beef
   Link: /recipes/asian/gyoza_shrimp_meat
   Region: Asiatisch
+  Tags:
+    - Chinesisch
   Worksteps:
     - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
     - Vermengen mit Rindfleisch
@@ -39,10 +45,13 @@ gyoza_shrimp_meat:
     - 1-2 Frühlingszwiebeln
     - 1 TL Ingwer
     - Fertiger Gyoza Teig (aus asia Store)
+
 spanish_tortilla:
   Name: Spanische Tortilla
   Link: /recipes/spanish/tortilla
   Region: Spanisch
+  Tags:
+    - Vegetarisch
   Worksteps:
     - Kartoffeln schälen, in scheiben schneiden und mit Öl bedeckt anbraten (Kleine - Mittlere Stuffe)
     - Zwiebeln klein schneiden und anbraten
@@ -64,10 +73,14 @@ spanish_tortilla:
   References:
     - "[Spanish Sabores](https://spanishsabores.com/best-spanish-omelet-recipe/)"
     - "[Jamie Oliver](https://www.jamieoliver.com/recipes/eggs-recipes/spanish-tortilla/)"
+
 adana_kebab:
   Name: Adana Kebab
   Link: /recipes/turkish/adana_kebab
   Region: Türkisch
+  Tags:
+    - Türkisch
+    - Grill
   Worksteps:
     - Alles vermengen
     - Kaltstellen für mindestens 30min
@@ -83,10 +96,14 @@ adana_kebab:
     - 2 Esslöffel Wasser
     - 1 Esslöffel Knoblauchpulver
     - 1 Esslöffel Zwiebelpulver
+
 tantanmen_ramen:
   Name: Tantanmen Ramen
   Link: /recipes/asian/tantanmen_ramen
   Region: Asiatisch
+  Tags:
+    - Japanisch
+    - Suppe
   Worksteps:
     - Bouillon mit Dashi und Sojasauce aufkochen
     - Miso und Reismilch einrühren und nochmal aufkochen
@@ -113,10 +130,14 @@ tantanmen_ramen:
     - 2 Pak-Choi (klein)
     - Salz
     - 200g Nudeln (nach Wahl)
+
 dashi:
   Name: Dashi
   Link: /recipes/asian/dashi
   Region: Asiatisch
+  Tags:
+    - Japanisch
+    - Suppe
   Worksteps:
     - Algen einschneiden
     - Algen mit Wasser aufkochen
@@ -128,10 +149,14 @@ dashi:
     - 30g Kombu Algen
     - 1.5L Wasser
     - 50g Bonito Flocken (ohne für Vegi)
+
 koefte:
   Name: Köfte
   Link: /recipes/turkish/koefte
   Region: Türkisch
+  Tags:
+    - Türkisch
+    - Grill
   Worksteps:
     - Zwiebeln raffeln, zwiebel saft dabei wegkippen
     - Tomatenmark und gewürze zu Zwiebeln zugeben
@@ -159,6 +184,10 @@ vegi_pie:
   Name: Pilz und Ale Pie
   Link: /recipes/british/vegi_pie
   Region: Britisch
+  Tags:
+    - Vegetarisch
+    - Britisch
+    - Slow Cooking
   Overview:
     Time: 2 Stunden
     Serves: 6
@@ -207,6 +236,7 @@ vegi_pie:
     - Salz und Pfeffer nach geschmack
     - Blätterteig für Backform und Deckel
     - 1 Ei
+
 salzburger_vegi:
   Name: Salzburger Bier Pilze
   Link: /recipes/german/salzburger_vegi
@@ -214,6 +244,7 @@ salzburger_vegi:
   Tags:
     - Vegetarisch
     - Deutsch
+    - Slow Cooking
   Overview:
     Time: 2 Stunden
     Serves: 4

@@ -74,6 +74,7 @@ def generate_food(inputyaml):
     tags = []
     for recipe in recipes:
         generate_recipe_page(recipe, recipes[recipe])
+    pprint(recipes[recipe]["Tags"])
     for tag in recipes[recipe]["Tags"]:
         if tag not in tags:
             tags.append(tag)
