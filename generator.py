@@ -24,9 +24,8 @@ def generate_cocktail_page(cocktail_id, cocktail):
 
 def generate_recipe_page(recipe_id, recipe):
     file = "_pages" + recipe["Link"] + ".md"
-    location = recipe["Link"].split("/")[2].capitalize()
+    # location = recipe["Link"].split("/")[2].capitalize()
     location = recipe["Region"]
-    # if recipe_id == "salzburger_vegi":
     f = open(file, "w", encoding="utf-8")
     f.write("---\n")
     f.write("layout: page\n")
@@ -49,12 +48,12 @@ def generate_tags(tags, tagType, template):
         f.write("layout: page\n")
         f.write("title: " + tag + "\n")
         f.write("permalink: /tags/" + tagType + "/" + tag + "/\n")
-        f.write("parent: "+tagType.capitalize()+" Tags\n")
+        f.write("parent: " + tagType.capitalize() + " Tags\n")
         f.write("grand_parent: Tags\n")
         f.write("---\n")
         f.write("{% assign tag = \"" + tag + "\" %}\n")
         f.write("# {{ tag }}\n")
-        f.write("{% include "+template+" %}")
+        f.write("{% include " + template + " %}")
         f.close()
 
 
@@ -74,11 +73,10 @@ def generate_food(inputyaml):
     tags = []
     for recipe in recipes:
         generate_recipe_page(recipe, recipes[recipe])
-    pprint(recipes[recipe]["Tags"])
-    for tag in recipes[recipe]["Tags"]:
-        if tag not in tags:
-            tags.append(tag)
-    generate_tags(tags, "recipes", "recipe_tags.liquid")
+        for tag in recipes[recipe]["Tags"]:
+            if tag not in tags:
+                tags.append(tag)
+        generate_tags(tags, "recipes", "recipe_tags.liquid")
 
 
 def main():
