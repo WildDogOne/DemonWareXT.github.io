@@ -201,7 +201,7 @@ vegi_pie:
     - 1 Ei
 salzburger_vegi:
   Name: Salzburger Bier Pilze
-  Link: /recipes/german/salzburger_vegi
+  Link: /recipes/deutsch/salzburger_vegi
   Overview:
     Time: 2 Stunden
     Serves: 6
