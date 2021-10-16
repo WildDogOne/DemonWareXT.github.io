@@ -211,6 +211,9 @@ salzburger_vegi:
   Name: Salzburger Bier Pilze
   Link: /recipes/german/salzburger_vegi
   Region: Deutsch
+  Tags:
+    - Vegetarisch
+    - Deutsch
   Overview:
     Time: 2 Stunden
     Serves: 4

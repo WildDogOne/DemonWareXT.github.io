@@ -40,16 +40,16 @@ def generate_recipe_page(recipe_id, recipe):
     f.close()
 
 
-def generate_cocktail_tags(tags):
+def generate_tags(tags, tagType):
     for tag in tags:
-        file = "_pages/cocktails/tags/" + tag.lower().replace(" ", "_") + ".md"
+        file = "_pages/"+tagType+"/tags/" + tag.lower().replace(" ", "_") + ".md"
         f = open(file, "w")
         f.write("---\n")
         f.write("layout: page\n")
         f.write("title: " + tag + "\n")
-        f.write("permalink: /cocktails/tags/" + tag + "/\n")
+        f.write("permalink: /"+tagType+"/tags/" + tag + "/\n")
         f.write("parent: Tags\n")
-        f.write("grand_parent: Cocktails\n")
+        f.write("grand_parent: "+tagType.capitalize()+"\n")
         f.write("---\n")
         f.write("{% assign tag = \"" + tag + "\" %}\n")
         f.write("# {{ tag }}\n")
@@ -65,14 +65,18 @@ def generate_cocktails(inputyaml):
         for tag in cocktails[cocktail]["Tags"]:
             if tag not in tags:
                 tags.append(tag)
-    generate_cocktail_tags(tags)
+    generate_tags(tags, "cocktails")
 
 
 def generate_food(inputyaml):
     recipes = yaml_read(inputyaml)
+    tags = []
     for recipe in recipes:
         generate_recipe_page(recipe, recipes[recipe])
-
+    for tag in recipes[recipe]["Tags"]:
+            if tag not in tags:
+                tags.append(tag)
+    generate_tags(tags, "recipes")
 
 def main():
     print("Generating Cocktail Pages")
