@@ -1,7 +1,7 @@
 ---
 gyoza_vegetarian:
   Name: Gyoza Vegetarisch
-  Link: /recipes/asiatisch/gyoza_vegetarian
+  Link: /recipes/asian/gyoza_vegetarian
   Region: Asiatisch
   Worksteps:
     - Shitake, Karotte, und Frühlingszwiebeln zerkleinern (im mixer)
@@ -21,7 +21,7 @@ gyoza_vegetarian:
     - Fertiger Gyoza Teig (aus asia Store)
 gyoza_shrimp_meat:
   Name: Gyoza mit Shrimp und Beef
-  Link: /recipes/asiatisch/gyoza_shrimp_meat
+  Link: /recipes/asian/gyoza_shrimp_meat
   Region: Asiatisch
   Worksteps:
     - Shrimp und Frühlingszwiebeln im Mixer zerkleinern
@@ -85,7 +85,7 @@ adana_kebab:
     - 1 Esslöffel Zwiebelpulver
 tantanmen_ramen:
   Name: Tantanmen Ramen
-  Link: /recipes/asiatisch/tantanmen_ramen
+  Link: /recipes/asian/tantanmen_ramen
   Region: Asiatisch
   Worksteps:
     - Bouillon mit Dashi und Sojasauce aufkochen
@@ -102,7 +102,7 @@ tantanmen_ramen:
     - Servieren
   Ingredients:
     - 3.5 dl Gemüsebouillon
-    - 0.5 dl [Dashi](/recipes/asiatisch/dashi/)
+    - 0.5 dl [Dashi](/recipes/asian/dashi/)
     - 4 EL Sojasauce
     - 1 TL Miso Paste (Dunkel)
     - 2 dl Reismilch
@@ -115,7 +115,7 @@ tantanmen_ramen:
     - 200g Nudeln (nach Wahl)
 dashi:
   Name: Dashi
-  Link: /recipes/asiatisch/dashi
+  Link: /recipes/asian/dashi
   Region: Asiatisch
   Worksteps:
     - Algen einschneiden

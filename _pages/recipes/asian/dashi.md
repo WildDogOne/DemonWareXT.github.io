@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dashi
-permalink: /recipes/asiatisch/dashi
+permalink: /recipes/asian/dashi
 parent: Asiatisch
 grand_parent: Recipes
 ---
