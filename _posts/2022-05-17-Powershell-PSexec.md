@@ -24,12 +24,12 @@ A good indicator in my opinion, are the flags of a powershell execution:
  * -NoL
 
 <div class="mermaid">
-flowchart LR
-    ex[explorer.exe\nRunning in user context]
-    cmd1[cmd.exe\nRunning in user context]
-    ps1[powershell.exe\nRunning in user context]
-    cmd2[cmd.exe\nRunning in admin context]
-    ex --> cmd1
-    cmd1 --> ps1
-    ps1 --> cmd2
+flowchart LR;
+    ex[explorer.exe\nRunning in user context];
+    cmd1[cmd.exe\nRunning in user context];
+    ps1[powershell.exe\nRunning in user context];
+    cmd2[cmd.exe\nRunning in admin context];
+    ex --> cmd1;
+    cmd1 --> ps1;
+    ps1 --> cmd2;
 </div>
