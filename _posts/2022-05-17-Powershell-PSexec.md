@@ -7,17 +7,11 @@ tags: [mde, hunting, psexec]
 {% include mermaid.liquid %}
 
 Today we investigate some strange behaviour from a possibly user executed Powershell session.
+
+
+![storyline](/assets/img/posts/2022-05-17/storyline_start.jpg)
+
 Everything started with an explorer.exe running the following comandline
-
-<div class="mermaid">
-flowchart LR
-    ex[explorer.exe]
-    cmd1["cmd.exe" /c echo|set/p="C:\Temp\Tools"|powershell -NoP -W 1 -NonI -NoL "SaPs 'cmd' -Args '/c """cd /d',$([char]34+$Input+[char]34),'^&^& start /b cmd.exe"""' -Verb RunAs"]
-    ps1[powershell  -NoP -W 1 -NonI -NoL "SaPs 'cmd' -Args '/c """cd /d',$([char]34+$Input+[char]34),'&& start /b cmd.exe"""' -Verb RunAs"]
-    cmd2["cmd.exe" /c "cd /d "C:\Temp\Tools" && start /b cmd.exe" ]
-    ex --> cmd1
-</div>
-
 ```powershell
 "cmd.exe" /c echo|set/p="C:\Temp\Tools"|powershell -NoP -W 1 -NonI -NoL "SaPs 'cmd' -Args '/c """cd /d',$([char]34+$Input+[char]34),'^&^& start /b cmd.exe"""' -Verb RunAs"
 ```
@@ -29,6 +23,13 @@ A good indicator in my opinion, are the flags of a powershell execution:
  * -NonI -> NonInteractive
  * -NoL
 
-
-
-
+<div class="mermaid">
+flowchart LR
+    ex[explorer.exe\nRunning in user context]
+    cmd1[cmd.exe\nRunning in user context]
+    ps1[powershell.exe\nRunning in user context]
+    cmd2[cmd.exe\nRunning in admin context]
+    ex --> cmd1
+    cmd1 --> ps1
+    ps1 --> cmd2
+</div>
