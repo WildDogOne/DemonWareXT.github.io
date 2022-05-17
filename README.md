@@ -1,68 +1,46 @@
-# Opensource Cooking
+# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-[https://demonwarext.github.io/](https://demonwarext.github.io/)
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
 
-This is my simple cookbook based on Jekyll.
-It was built out of frustration of the internet when it comes to cooking ressources, because let's be honest, we don't all have time to read through these huge food blogs with so little actually relevant information.
+The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-## Ways to contribute
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
 
-- Add recipes or cocktail ideas
-- Fix errors in recipes or add improvements
-
-## Rules for submission
-
-- All recipes are to be added into the yaml files (_data/*.yml) and follow the standard schema
-- Language of this repository is German, fork it if you want to translate
-
-### Tags
-
-You can (and should) add tags at the end of your recipe.
-However it's only really relevant at the moment for Cocktails
-
-List of special, categorical tags to use if relevant:
-- `mixology`: for recipes used to make cocktail ingredients
-- `summer`: for hot time recipes
-- `winter`: for winter recipes
-
-### Schema
-#### Cocktail
-```
-name_of_cocktail:
-  Name: Name of Cocktail
-  Link: /cocktails/name_of_cocktail/
-  Rating: 4
-  Tags:
-    - Tag 1
-    - Tag 2
-  Worksteps:
-    - Step 1
-    - Step 2
-  Ingredients:
-    - Ingredient 1
-    - Ingredient 2
-```
-#### Food
-```
-name_of_recipe:
-  Name: Name of Recipe
-  Link: /recipes/british/name_of_recipe
-  Overview:
-    # Time it takes to cook
-    Time: 2 Stunden
-    # People served (aprox)
-    Serves: 6
-  Worksteps:
-    - Step 1
-    - Step 2
-  Ingredients:
-    - Ingredient 1
-    - Ingredient 2
+```shell
+.
+├── _config.yml
+├── _data
+├── _plugins
+├── _tabs
+└── index.html
 ```
 
+In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
-## About the site
+## Prerequisites
 
-Most jekyll files are generated automatically
-The most important thing is to get the YAML files sorted correctly
-Improvements to the templates are definitelly welcome and needed
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
+
+## Installation
+
+[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
+
+Then clone it to your local machine and run:
+
+```
+$ bundle
+```
+
+## Usage
+
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+
+## License
+
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
