@@ -4,9 +4,19 @@ date: 2022-05-17 21:39 +0200
 categories: [Hunting, MDE]
 tags: [mde, hunting, psexec]
 ---
+{% include mermaid.liquid %}
 
 Today we investigate some strange behaviour from a possibly user executed Powershell session.
 Everything started with an explorer.exe running the following comandline
+
+<div class="mermaid">
+flowchart LR
+    ex[explorer.exe]
+    cmd1["cmd.exe" /c echo|set/p="C:\Temp\Tools"|powershell -NoP -W 1 -NonI -NoL "SaPs 'cmd' -Args '/c """cd /d',$([char]34+$Input+[char]34),'^&^& start /b cmd.exe"""' -Verb RunAs"]
+    ps1[powershell  -NoP -W 1 -NonI -NoL "SaPs 'cmd' -Args '/c """cd /d',$([char]34+$Input+[char]34),'&& start /b cmd.exe"""' -Verb RunAs"]
+    cmd2["cmd.exe" /c "cd /d "C:\Temp\Tools" && start /b cmd.exe" ]
+    ex --> cmd1
+</div>
 
 ```powershell
 "cmd.exe" /c echo|set/p="C:\Temp\Tools"|powershell -NoP -W 1 -NonI -NoL "SaPs 'cmd' -Args '/c """cd /d',$([char]34+$Input+[char]34),'^&^& start /b cmd.exe"""' -Verb RunAs"
@@ -18,3 +28,7 @@ A good indicator in my opinion, are the flags of a powershell execution:
  * -W 1 -> Window 1, never seen this one before
  * -NonI -> NonInteractive
  * -NoL
+
+
+
+
