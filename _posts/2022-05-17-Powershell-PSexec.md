@@ -2,7 +2,7 @@
 title: Powershell and PSExec
 date: 2022-05-17 21:39 +0200
 categories: [Hunting, MDE]
-tags: [mde, hunting, psexec]
+tags: [mde, hunting, psexec, false positive]
 ---
 {% include mermaid.liquid %}
 
@@ -75,10 +75,12 @@ and tried again with this result:
 ![spawn2](/assets/img/posts/2022-05-17/spawn2.jpg)
 
 The executed PsExec commands:
+
 ```cmd
 PsExec.exe  \\mydevice -accepteula -nobanner -s cmd /c powershell.exe -noninteractive -command "&{Get-MPComputerStatus | Select-Object -Property AntispywareEnabled, AntivirusEnabled, OnAccessProtectionEnabled, RealTimeProtectionEnabled}"
 PsExec.exe  \\mydevice -accepteula -nobanner -s cmd /c powershell.exe -noninteractive -command "&{Get-MPComputerStatus | Select-Object -Property AMServiceEnabled, AntispywareEnabled, AntispywareSignatureLastUpdated, AntivirusEnabled, AntivirusSignatureLastUpdated, BehaviorMonitorEnabled, IoavProtectionEnabled, NISEnabled, NISSignatureLastUpdated, OnAccessProtectionEnabled, RealTimeProtectionEnabled, TamperProtectionSource}"
 ```
+
 Now we are getting somewhere, PSExec was executed, why this was not mentioned in the alert is beyond me. Goes to show
 that you should not just trust MDE to do its job.
 But it definitely explains the "suspicious discovery" which MDE was talking about.
@@ -103,3 +105,15 @@ flowchart TD;
     cmd3 --> PSExec;
     cmd3 --> PSExec2;
 </div>
+
+Now knowing the full path of what happened, I had another look into the "privilege escalation" aspect.
+The logged-in user went from user to administrator, however as far as I was able to check via UAC, so all is in order.
+This and the understanding of what was happening, made me feel certain enough that this is a false positive to get in
+touch with the user.
+The user was able to confirm that they are debugging some issues with the installed endpoint protection which fitted
+into my view of the matter.
+
+**Verdict: False Positive**
+
+### Next Steps
+Get better processes, it's no good to use PSExec on a business device in my opinion
