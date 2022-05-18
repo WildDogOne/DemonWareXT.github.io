@@ -130,6 +130,12 @@ touch with the user.
 The user was able to confirm that they are debugging some issues with the installed endpoint protection which fitted
 into my view of the matter.
 
+| Indicator                                  | Thoughts                                                | Verdict |
+|--------------------------------------------|---------------------------------------------------------|---------|
+| CMD started by User                        | Either compromise of host, or legitimate action by user | 50%     |
+| Powershell started with Strange parameters | The parameters looks pretty malicious / suspicious      | 90%     |
+
+
 **Verdict: False Positive**
 
 ## Next Steps
