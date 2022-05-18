@@ -86,7 +86,7 @@ Reading the commands sent is quite easy, someone is trying to get information ab
 So far the flow of process looks a bit like this:
 
 <div class="mermaid">
-flowchart LR;
+flowchart TD;
     ex[explorer.exe\nRunning in user context];
     cmd1[cmd.exe\nRunning in user context];
     ps1[powershell.exe\nRunning in user context];
