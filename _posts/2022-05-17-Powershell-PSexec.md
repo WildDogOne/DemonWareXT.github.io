@@ -79,6 +79,7 @@ and tried again with this result:
 ![spawn2](/assets/img/posts/2022-05-17/spawn2.jpg)
 
 ## PsExec
+
 The executed PsExec commands:
 
 ```cmd
@@ -89,7 +90,10 @@ PsExec.exe  \\mydevice -accepteula -nobanner -s cmd /c powershell.exe -nonintera
 Now we are getting somewhere, PSExec was executed, why this was not mentioned in the alert is beyond me. Goes to show
 that you should not just blindly trust MDE to do its job.
 But it definitely explains the "suspicious discovery" which MDE was talking about.
-Reading the commands sent is quite easy, someone is trying to get information about the security status of this device.
+Reading the commands used is quite easy, someone is trying to get information about the security status of this device.
+Let's be honest, if an attacker already is admin, there is no need to use noisy tools like PsExec which every EDR on
+earth notices.
+
 So far the flow of process looks a bit like this:
 
 <div class="mermaid">
@@ -112,6 +116,7 @@ flowchart TD;
 </div>
 
 ## conhost.exe
+
 And what about ```conhost.exe 0xffffffff -ForceV1```?
 I did a bit of research about it and came to no intelligent conclusion whatsoever.
 Hausec has a good [writeup](https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/) on cobalt strike which has
@@ -120,21 +125,62 @@ similar behaviour. I had a closer look into this and came across a post in
 topic which brought me to
 [this](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_cobaltstrike_process_patterns.yml)
 Sigma rule.
-On closer inspection of it, I can with high certainty say that this has nothing to do with Cobalt strike.
+I took the Sigma rule and converted it to KQL with [uncoder](https://uncoder.io/):
 
-## Verdict
+```
+DeviceProcessEvents
+| where
+    (
+        (ProcessCommandLine contains @"\cmd.exe /C whoami" and InitiatingProcessFolderPath startswith @"C:\Temp")
+        or
+        (
+            ProcessCommandLine contains "conhost.exe 0xffffffff -ForceV1" and
+            (
+                    InitiatingProcessCommandLine contains "/C whoami"
+                    or InitiatingProcessCommandLine contains "cmd.exe /C echo"
+                    or InitiatingProcessCommandLine contains @" > \\\\.\\pipe"
+            )
+        )
+        or
+        (
+            (
+                ProcessCommandLine contains "cmd.exe /c echo"
+                or ProcessCommandLine contains @"> \\\\.\\pipe"
+                or ProcessCommandLine contains @"\whoami.exe"
+            )
+            and InitiatingProcessFolderPath endswith @"\dllhost.exe"
+        )
+        or
+        (
+            FolderPath endswith @"\cmd.exe"
+            and InitiatingProcessFolderPath endswith @"\runonce.exe"
+            and InitiatingProcessCommandLine endswith @"\runonce.exe"
+        )
+    )
+| distinct DeviceName, ProcessCommandLine,InitiatingProcessCommandLine,FolderPath,InitiatingProcessFolderPath
+```
+
+Running this against our environment, focused on our specific device, I was unable to find any traces, which makes me
+more or less certain that this has nothing to do with cobalt strike in our case.
+
+## Privilege Escalation
+
 Now knowing the full path of what happened, I had another look into the "privilege escalation" aspect.
 The logged-in user went from user to administrator, however as far as I was able to check via UAC, so all is in order.
-This and the understanding of what was happening, made me feel certain enough that this is a false positive to get in
-touch with the user.
+This and the understanding of what was happening, made me feel certain enough of what happened, which enables me to get
+in touch with the user.
 The user was able to confirm that they are debugging some issues with the installed endpoint protection which fitted
 into my view of the matter.
 
-| Indicator                                  | Thoughts                                                | Verdict |
-|--------------------------------------------|---------------------------------------------------------|---------|
-| CMD started by User                        | Either compromise of host, or legitimate action by user | 50%     |
-| Powershell started with Strange parameters | The parameters looks pretty malicious / suspicious      | 90%     |
+## Verdict
 
+| Indicator                              | Thoughts                                                                                                            | Verdict |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------|
+| CMD started by User                    | Either compromise of host, or legitimate action by user                                                             | -10%    |
+| Powershell started with odd parameters | The parameters looks pretty malicious / suspicious                                                                  | +90%    |
+| Elevation of Privileges via UAC        | This is very normal behaviour and would indicate that someone has access to both user and admin passwords, unlikely | -10%    |
+| Running of PsExec                      | PsExec is often used for malicious behaviour, but in this case local execution as admin makes no actual sense       | -10%    |
+| Explanation by user                    | The Explanation of the user made sense and fit into my perspective of how the alert played out                      | -100%   |
 
 **Verdict: False Positive**
 
