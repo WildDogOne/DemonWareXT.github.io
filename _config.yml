@@ -22,12 +22,12 @@ timezone: Europe/Zurich
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Hunting                          # the main title
+title: About Security                          # the main title
 
-tagline: Hunting   # it will display as the sub-title
+tagline: Blue and Red   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Hunting
+  Everything to do with Red- and Blueteam.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://demonwarext.github.io/'
@@ -122,7 +122,7 @@ paginate: 10
 
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
@@ -176,7 +176,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: [ development ]
 
 exclude:
   - '*.gem'
@@ -189,7 +189,7 @@ exclude:
   - package*.json
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [ categories, tags ]
   layouts:
     category: category
     tag: tag
