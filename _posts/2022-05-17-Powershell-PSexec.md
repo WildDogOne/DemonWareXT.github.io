@@ -127,7 +127,7 @@ topic which brought me to
 Sigma rule.
 I took the Sigma rule and converted it to KQL with [uncoder](https://uncoder.io/):
 
-```
+```powershell
 DeviceProcessEvents
 | where
     (
