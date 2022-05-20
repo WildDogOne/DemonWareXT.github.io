@@ -97,6 +97,7 @@ earth notices.
 So far the flow of process looks a bit like this:
 
 <div class="mermaid">
+%%{init: {"theme": "dark"}}%%;
 flowchart TD;
     ex[explorer.exe\nRunning in user context];
     cmd1[cmd.exe\nRunning in user context];
