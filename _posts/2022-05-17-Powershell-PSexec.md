@@ -97,12 +97,12 @@ So far the flow of process looks a bit like this:
 
 {% include mermaid_start.liquid %}
 flowchart TD;
-    ex[explorer.exe\nRunning in user context];
-    cmd1[cmd.exe\nRunning in user context];
-    ps1[powershell.exe\nRunning in user context];
-    cmd2[cmd.exe\nRunning in admin context];
+    ex[explorer.exe<br>Running in user context];
+    cmd1[cmd.exe<br>Running in user context];
+    ps1[powershell.exe<br>Running in user context];
+    cmd2[cmd.exe<br>Running in admin context];
     conhost[conhost.exe];
-    cmd3[cmd.exe\nRunning in admin context];
+    cmd3[cmd.exe<br>Running in admin context];
     PSExec[PSExec.exe];
     PSExec2[PSExec.exe];
     ex --> cmd1;
