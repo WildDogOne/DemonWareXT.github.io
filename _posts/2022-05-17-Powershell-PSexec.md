@@ -4,7 +4,6 @@ date: 2022-05-17 21:39 +0200
 categories: [Hunting, MDE]
 tags: [mde, hunting, psexec, false positive]
 ---
-{% include mermaid.liquid %}
 
 Today we investigate some strange behaviour from a (possibly user) executed Powershell session.
 
@@ -96,8 +95,7 @@ earth notices.
 
 So far the flow of process looks a bit like this:
 
-<div class="mermaid">
-%%{init: {"theme": "dark"}}%%;
+{% include mermaid_start.liquid %}
 flowchart TD;
     ex[explorer.exe\nRunning in user context];
     cmd1[cmd.exe\nRunning in user context];
@@ -114,7 +112,7 @@ flowchart TD;
     cmd2 --> conhost;
     cmd3 --> PSExec;
     cmd3 --> PSExec2;
-</div>
+{% include mermaid_end.liquid %}
 
 ## conhost.exe
 
