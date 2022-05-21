@@ -62,9 +62,9 @@ Ports observed:
 ## Flowchart
 {% include mermaid_start.liquid %}
 flowchart TD;
-87.251.67.65 --> 3389
-3389 --> mydevice
-style mydevice stroke-dasharray: 88.5 44
+87.251.67.65 --> 3389;
+3389 --> mydevice;
+style mydevice stroke-dasharray: 88.5 44;
 {% include mermaid_end.liquid %}
 
 
