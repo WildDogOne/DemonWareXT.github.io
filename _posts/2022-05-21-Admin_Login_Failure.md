@@ -15,7 +15,16 @@ Going a bit more in detail of what this IP is doing with my clients, I ran a sma
 
 ```powershell
 let ip = "87.251.67.65";
-search in (DeviceNetworkEvents, DeviceFileEvents, DeviceLogonEvents, DeviceEvents, EmailEvents, IdentityLogonEvents, IdentityQueryEvents, IdentityDirectoryEvents, CloudAppEvents, AADSignInEventsBeta, AADSpnSignInEventsBeta)
+search in (DeviceNetworkEvents,
+    DeviceFileEvents,
+    DeviceLogonEvents, DeviceEvents,
+    EmailEvents,
+    IdentityLogonEvents,
+    IdentityQueryEvents,
+    IdentityDirectoryEvents,
+    CloudAppEvents,
+    AADSignInEventsBeta,
+    AADSpnSignInEventsBeta)
 Timestamp between (ago(1d) .. now())
 and (// Events initiated by this IP
 LocalIP == ip
